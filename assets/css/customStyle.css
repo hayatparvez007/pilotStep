@@ -1,0 +1,39 @@
+/* For header of the navigation bar */
+.top-header{
+padding:5px 0;
+}
+
+
+.logo img {
+    margin-top: 22px;
+}
+
+
+.main-menu > ul > li.active > a {
+    color: #374d86;
+}
+
+.step-preloader-rapper .progress {
+    background: rgba(55, 77, 134, 0.8);
+}
+
+.progress .determinate, .progress .indeterminate {
+    background-color: #fcd87e !important;
+}
+
+.main-menu > ul > li:hover > a {
+    color: #374d86 !important;
+}
+
+.main-menu > ul > li.has-child > ul.sub-menu > li:hover > a, .main-menu > ul > li.has-child > ul.sub-menu > li > ul.menu-sub li:hover a {
+    color: #374d86;
+}
+
+.main-menu > ul > li.has-child > ul.sub-menu {
+    border-top: 3px solid #0c8dc4;
+    border-bottom: 3px solid #f9b137;    
+}
+
+.main-menu > ul > li.has-child > ul.sub-menu > li:after, .main-menu > ul > li.has-child > ul.sub-menu > li > ul.menu-sub li:after{
+    background: rgb(14, 139, 193);
+}
