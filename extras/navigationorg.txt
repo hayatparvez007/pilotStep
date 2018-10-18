@@ -1,0 +1,170 @@
+
+
+    <!-- 
+    ========================================
+    HEADER AREA START FORM HERE
+    ========================================
+      -->
+      <header class="step-header home-three">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-12">
+                    <div class="offcanvas-menu-bar">
+                        <a href="#" class="menu-click">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+                    <div class="home-three-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/sitspl_logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-12">
+
+                    <div class="top-home-two-social-link home-three">
+                        <ul class="text-right">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#" class="click-serach-step"><i class="fa fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- end top social link -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 
+    ========================================
+    HEADER AREA End HERE
+    ========================================
+      -->
+    <!-- 
+    ========================================
+    OFFCANVAS MENU START FORM HERE
+    ========================================
+      -->
+    <div class="home3-offcanvas-menu-rapper">
+        <div class="offcanvas-menu-close">
+            <span class="menu-close-ion"> <i class="fa fa-close"></i></span>
+        </div>
+        <div class="offcanvas-menu">
+            <ul>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">home</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="index.html" class="waves-effect waves-light3">home 1</a></li>
+                        <li><a href="index-home2.html" class="waves-effect waves-light3">home 2</a></li>
+                        <li><a href="index-home-3.html" class="waves-effect waves-light3">home 3</a></li>
+                    </ul>
+                </li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">about us</a>
+                    <ul class="sub-menu-2">
+                        <Li><a href="about-one.html" class="waves-effect waves-light3">about 1</a></Li>
+                        <Li><a href="about-two.html" class="waves-effect waves-light3">about 2</a></Li>
+                    </ul>
+                </li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">Portfolio</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="portfolio_1.html" class="waves-effect waves-light3">portfolio 1</a></li>
+                        <li><a href="portfolio_2.html" class="waves-effect waves-light3">portfolio 2</a></li>
+                        <li><a href="portfolio_3.html" class="waves-effect waves-light3">portfolio 3</a></li>
+                        <li><a href="portfolio_4.html" class="waves-effect waves-light3">portfolio 4</a></li>
+                        <li><a href="portfolio_05.html" class="waves-effect waves-light3">portfolio 5</a></li>
+                    </ul>
+                </li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">Services</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="services-one.html" class="waves-effect waves-light3">Services 1</a></li>
+                        <li><a href="services-two.html" class="waves-effect waves-light3">Services 2</a></li>
+                        <li><a href="services-elements.html" class="waves-effect waves-light3">all services</a></li>
+                    </ul>
+                </li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">Blog</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="blog-grid.html" class="waves-effect waves-light3">Blog Grid</a></li>
+                        <li><a href="blog-leftsidebar.html" class="waves-effect waves-light3">Blog left Sidebar</a></li>
+                        <li><a href="blog-right-sidebar.html" class="waves-effect waves-light3">Blog right Sidebar</a></li>
+                        <li><a href="single-blog-full-width.html" class="waves-effect waves-light3">single full width</a></li>
+                        <li><a href="single-blog-left-sidebar.html" class="waves-effect waves-light3">single left sidebar</a></li>
+                        <li><a href="single-blog.html" class="waves-effect waves-light3">single Right sidebar</a></li>
+                    </ul>
+                </li>
+                <li class="has-child-2"><a href="#">Pages</a>
+                <ul class="sub-menu-2">
+                    <li> <a href="main-shop.html" class="waves-effect waves-light3">Shop page <span class="label label-success">new</span></a></li>
+                        <li><a href="shop-list.html" class="waves-effect waves-light3">shop list view <span class="label label-success">new</span></a></li>
+                        <li><a href="shop-grid.html" class="waves-effect waves-light3">shop grid view <span class="label label-success">new</span></a></li>
+                        <li><a href="shop-details.html" class="waves-effect waves-light3">shop details <span class="label label-success">new</span></a></li>
+                        <li><a href="shopping-cart.html" class="waves-effect waves-light3">cart <span class="label label-success">new</span></a></li>
+                        <li><a href="checkout.html" class="waves-effect waves-light3">checkout <span class="label label-success">new</span></a></li>
+                        <li><a href="my-account.html" class="waves-effect waves-light3">account <span class="label label-success">new</span></a></li>
+                        <li><a href="comming-soon.html">Comming Soon <span class="label label-success">EX</span></a></li>
+                        <li><a href="events.html">Event <span class="label label-success">EX</span></a></li>
+                        <li><a href="single-events.html">Event details <span class="label label-success">EX</span></a></li>
+                        <li><a href="404.html">404 <span class="label label-success">EX</span></a></li>
+                </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- end offcanvas menu -->
+        <div class="offcanvas-social">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <!-- 
+    ========================================
+    OFFCANVAS MENU END HERE
+    ========================================
+      -->
+    <!-- 
+    ========================================
+    HIDDEN MODAL Search AREA
+    ========================================
+      -->
+
+    <div class="search-rapper-step">
+        <div class="search-close">
+            <a class="serc-clse" href="#">
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="search-table">
+            <div class="search-cell">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="step-serach-main">
+                                <form action="#!">
+                                    <input type="text" placeholder="Serach...">
+                                    <button type="submit" class="waves-effect waves-light"> <i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+    ========================================
+    HIDDEN MODAL Search AREA END
+    ========================================
+      -->
+    

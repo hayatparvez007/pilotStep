@@ -989,7 +989,7 @@ input:focus {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
-  left: 6px;
+  left: 0px;
   visibility: visible; }
 
 .main-menu > ul > li.active:after {

@@ -14,6 +14,24 @@
     'use strict';
 
     jQuery(document).on("ready", function () {
+        
+        // change active class
+        $(function () {
+            setNavigation();
+        });
+        
+        function setNavigation() {
+            var path = window.location.pathname;
+            path = path.replace(/\/$/, "");
+            path = decodeURIComponent(path);
+        
+            $(".step-header .main-menu ul a").each(function () {
+                var href = $(this).attr('href');
+                if (path.substring(0, href.length) === href) {
+                    $(this).closest('li').addClass('active');
+                }
+            });
+        }
 
 
         /*
@@ -383,6 +401,12 @@
             type: 'image',
             gallery: {
                 enabled: true
+            },
+            image: {
+                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                titleSrc: function(item) {
+                    return item.el.attr('title') + '<small>Specialised IT Squad Pvt. Ltd.</small>';
+                }
             }
         });
 
@@ -437,12 +461,12 @@
             pagination: '.swiper-pagination',
             paginationClickable: true,
             centeredSlides: true,
-            autoplay: 0,
+            autoplay: 5500,
             direction: 'vertical',
-            autoplayDisableOnInteraction: false,
+            autoplayDisableOnInteraction: true,
             loop: true,
-            mousewheelControl: false,
-            onSlideChangeStart: function (s) {
+            mousewheelControl: false, 
+			onSlideChangeStart: function (s) {
                 var currentSlide = $(s.slides[s.activeIndex]);
                 var elems = currentSlide.find(".animated")
                 elems.each(function () {
@@ -458,6 +482,7 @@
                 var currentSlide = $(s.slides[s.activeIndex]);
 
             }
+			
         });
 
         /*

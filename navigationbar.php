@@ -1,68 +1,258 @@
-<!-- 
+
+
+    <!-- 
     ========================================
-    STEP HEADER AREA START FORM HERE
+    HEADER AREA START FORM HERE
     ========================================
       -->
-    <header class="step-header home-one">
-        <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-4 col-xs-12">
-                        <div class="top-social-icon">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- end top social icon -->
-                    <div class="col-md-6 col-sm-8 col-xs-12">
-                        <div class="top-contact">
-                            <ul>
-                                <li> <a href="#"><span><i class="fa fa-phone"></i></span>Call Us: 011-42509015</a></li>
-                                <li><a href="#"><span><i class="fa fa-envelope-o"></i></span>Send Mail: info@specialiseditsquad.com </a></li>
-                            </ul>
-                        </div>
+      <header class="step-header home-three">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-2">
+                <div class="home-three-logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/sitspl_logo.png" alt="">
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="mian-menu-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 col-sm-2 col-xs-4">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="assets/images/logo/sitspl_logo.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- end logo -->
-                    <div class="col-md-9 col-sm-9 col-xs-4">
-                        <div class="mobile-menu">
-                            <a href="#" class="mobile-menu-step">
-                                <img src="assets/images/menu.png" alt="">
-                            </a>
-                        </div>
-                        <div class="main-menu">
+                <div class="col-lg-7 col-md-7 col-sm-11">
+                <div class="main-menu pull-sm-none">
                             <ul>
-                                <li class="active has-child"><a href="#">HOME</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="index-home2.html">Home Two</a></li>
-                                        <li><a href="index-home-3.html">Home Three</a></li>
+                                <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;HOME</a>
+                                 
+                                </li>
+                                <li class="has-child"><a href="about.php">ABOUT US </a>
+                                
+                                <ul class="sub-menu">
+                                        <li><a href="about-one.html">About Company</a></li>
+                                        <li><a href="about-two.html">Management Profile</a></li>
+                                        <li><a href="about-two.html">Vision</a></li>
+                                        <li><a href="about-two.html">Mission</a></li>
                                     </ul>
                                 </li>
-                                <li class="has-child"><a href="#">ABOUT US </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about-one.html">About One</a></li>
-                                        <li><a href="about-two.html">About Two</a></li>
-                                    </ul>
+
+                                <li class="has-child"><a href="#">SERVICES </a>
+                                    <div class="container-fluid mega-menu service-mm">
+										<div class="row">
+											<div class="col-md-4">
+												<h3>ERP Software <span class="clr-span"> Services</span></h3>
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<h6><span class="clr-span">SAP ECC / S/4HANA <span class="label label-primary">new</span></span></h6>
+														<a href="accrodian.html">Implementation</a>
+														<a href="accrodian.html">Customization</a>
+														<a href="accrodian.html">Upgrade & Roll Out</a>
+														<a href="accrodian.html">Maintenance & Support</a>
+														<a href="accrodian.html">Basis Consulting</a>
+														<a href="accrodian.html">OS / DB Migration</a>
+														<a href="accrodian.html">Training</a> 
+													</div>
+												
+													<div class="col-md-6 col-sm-6">
+														<h6><span class="clr-span">SAP Business One</span></h6>
+														<a href="accrodian.html">SAP Business One Implementation</a>
+														<a href="alerts.html">SAP Business One Customization</a>
+														<a href="button.html">SAP Business One Integration Services</a>
+														<a href="tab.html">Consultation Services</a>
+														<a href="typography.html">Upgradation Services</a>
+													</div>
+												
+												</div>  											
+                                        
+											</div>
+										
+										<div class="col-md-4">
+										<h3>CONSULTING <span class="clr-span">Services</span></h3>
+                                        <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                        <h6><span class="clr-span">Business Consulting</span></h6>
+                                            <a href="main-shop.html">Operational Management Consulting<span class="label label-primary">new</span></a>
+                                            <a href="shop-list.html">Financial Management Consulting <span class="label label-primary">new</span></a>
+                                            <a href="shop-grid.html">Business Process Architecting <span class="label label-primary">new</span></a>
+                                            <a href="shop-grid.html">Resource Placement</a>
+                                            <a href="shop-grid.html"></a>  
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                        <h6><span class="clr-span">IT Consulting</span></h6>
+                                            <a href="main-shop.html">Strategic IT Planning</a>
+                                            <a href="main-shop.html">IT Systems Diagnosis<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html">IT Systems Transformation<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html">Security Review & Implementation<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html">Cloud and Mobile Strategies<span class="label label-primary">new</span></a>
+                                            
+                                        </div>
+                                        </div>
+
+
+
+										</div>
+										<div class="col-md-4">
+										<h3>APPLICATION  <span class="clr-span">Services</span></h3>
+                                        <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                        <h6><span class="clr-span">WEB & OS</span></h6>
+                                            <a href="single-team.html">Responsive Websites & E-commerce sites </a>
+                                            <a href="services-one.html">Dashboard & Portal Development</a>                              
+                                            <a href="team-one.html">Optimization of app. components</a>
+                                            <a href="team-two.html">Customized Enterprise Applications</a>
+
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+										
+                                             <h6><span class="clr-span">MOBILE</span></h6>
+                                            <a href="services-two.html">Native/Hybrid Mobile App Development </a>
+
+                                             <h6><span class="clr-span">Database</span></h6>
+                                            <a href="project_detials.html">Database Management</a>
+                                            <a href="project_detials.html">Database Designing</a>
+
+
+                                        </div>
+                                        </div>
+
+										</div>
+										</div>
+										
+									<div class="row">
+									
+													<div class="col-md-4">
+														<h3>Hosting  <span class="clr-span">Services</span></h3>
+														<div class="row">
+                                        <div class="col-md-6 col-sm-6">                                        
+                                            <a href="team-two.html">Online data safeguarding</a>    
+                                            <a href="team-two.html">Cloud Hosting</a>    
+                                            
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                           <a href="team-two.html">Server hosting</a>  
+                                            <a href="team-two.html">Virtual server hosting</a>
+
+                                        </div>
+                                        </div>
+													</div>	
+													<div class="col-md-4">
+														<h3>Reporting  <span class="clr-span">Services</span></h3>
+														<div class="row">
+                                        <div class="col-md-6 col-sm-6">                                        
+                                          <a href="services-two.html">Crystal Reports</a>
+                                          <a href="services-two.html">ERP Reports</a>
+                                           
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">                                          
+                                             <a href="services-two.html">RDLC Reports</a>
+													</div>
+													</div>
+													</div>
+													<div class="col-md-4">
+														<h3>Other  <span class="clr-span">Services</span></h3>
+														<div class="row">
+                                        <div class="col-md-6 col-sm-6">                                        
+                                             <a href="services-two.html">Project Management</a>
+											 <a href="services-two.html">Upgradation Services</a>
+											 <a href="services-two.html">Network Security</a>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+										 
+                                            <a href="services-two.html">Software Licensing</a>
+                                            <a href="services-two.html"><span class="clr-span">SEE ALL SERVICES</span></a>
+                                            
+													</div>	
+													
+													</div>
+                                    </div>
                                 </li>
-                                <li class="has-child"><a href="#">PORFOLIO </a>
+
+                               
+                               <li class="has-child"><a href="#">SOLUTIONS </a>
+                                    <div class="container-fluid mega-menu solution-mm">
+										<div class="row">
+											<div class="col-md-4">
+												<h3>ENTERPRISE <span class="clr-span">Solutions</span></h3>
+												<div class="row">
+													<div class="col-md-6 col-sm-6">
+														<h6><span class="clr-span">Industry Modules</h6>
+														<a href="accrodian.html">Sales and Services</a>
+														<a href="accrodian.html">Purchase & Supply</a>
+														<a href="accrodian.html">Finance & Accounting</a>
+														<a href="accrodian.html">Production & Planning</a>
+                                                        <a href="accrodian.html">Warehouse & Inventory</a>
+                                                        <a href="accrodian.html">Project Management</a>
+														
+														
+													</div>
+												
+													<div class="col-md-6 col-sm-6">
+                                                        <br>
+                                                        <a href="accrodian.html">Business Intelligence</a> 
+														<a href="accrodian.html">Reports & Analysis</a> 
+														<a href="accrodian.html">SAP News & Resources</a> 
+														<a href="accrodian.html">Add Ons</a> 
+													</div>
+												
+												</div>  											
+                                        
+											</div>
+										
+										<div class="col-md-4">
+                                        <h3>COMPANION <span class="clr-span">Products</span></h3>
+                                        <div class="row">
+                                        <div class="col-md-12">
+                                        <h6><span class="clr-span">Generic Enterprise Products</span></h6>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                        <div class="col-md-6 col-sm-6">                                        
+                                            <a href="main-shop.html">Point of Sale (POS)</a>
+                                            <a href="main-shop.html">Dealer Management Syster (DMS)</a>
+                                            <a href="shop-list.html">Cust. Relationship Management (CRM)</a>
+                                            <a href="shop-grid.html">Quality Checking (QC)<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html">Vendor Portal</a>
+                                            <a href="main-shop.html">Customer Portal</a>
+                                             
+                                        </div>
+                                        <div class="col-md-6 col-sm-6"> 
+                                            <a href="shop-grid.html">Inventory Management</a>
+                                            <a href="shop-grid.html">Catalog Service</a>                                                                                         
+                                            <a href="main-shop.html">Packing List</a>
+                                            <a href="main-shop.html">Tracking | EMS </a>                                            
+                                            <a href="main-shop.html">Office Nest - HRMS & Payroll <span class="label label-primary">new</span></a>                                            
+                                            <a href="main-shop.html">EduSpec - Education ERP <span class="label label-primary">new</span></a>                                            
+                                        </div>
+                                        </div>
+
+
+
+										</div>
+										<div class="col-md-4">
+										<h3>TECH  <span class="clr-span">Solutions</span></h3>
+                                        <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                        <br>
+                                            <a href="single-team.html">Design, UI/UX </a>
+                                            <a href="services-one.html">Development</a>                              
+                                            <a href="team-one.html">Network Security & Solution</a>
+                                            <a href="team-two.html">Mobile Games</a>
+                                            <a href="team-two.html">Maringo MariProject</a>
+                                            <a href="team-two.html">Virtualisation</a>
+                                            <a href="team-two.html">Server</a>
+                                            
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <br>
+                                        <a href="team-two.html">Storage Unit</a>
+                                        <a href="team-two.html">SAP ECC</a>
+                                        <a href="team-two.html">SAP S/4 HANA</a>
+                                        <a href="team-two.html">SAP Business One</a>
+                                        
+                                            <a href="team-two.html">SEO</a>
+                                        </div>
+                                        </div>
+
+										</div>
+										</div>																		
+                                </li>
+
+                                <!-- <li class="has-child"><a href="#">Services</a>
                                     <ul class="sub-menu">
                                         <li class="has-child"><a href="#!">masonry</a>
                                             <ul class="menu-sub">
@@ -78,15 +268,8 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </li>
-                                <li class="has-child"><a href="#">SERVICE </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services-one.html">service One</a></li>
-                                        <li><a href="services-two.html">service Two</a></li>
-                                        <li><a href="services-elements.html">Service Elements</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-child"><a href="#">BLOG </a>
+                                </li> -->
+                                <!-- <li class="has-child"><a href="#">BLOG </a>
                                     <ul class="sub-menu">
                                         <li><a href="blog-grid.html">Blog Grid</a></li>
                                         <li><a href="blog-leftsidebar.html">Blog left Sidebar</a></li>
@@ -95,173 +278,206 @@
                                         <li><a href="single-blog-left-sidebar.html">single left sidebar</a></li>
                                         <li><a href="single-blog.html">single Right sidebar</a></li>
                                     </ul>
-                                </li>
-                                <li class="has-child"><a href="#">PAGES </a>
-                                    <ul class="mega-menu">
-                                        <li>
-                                            <h3>Elements <span class="clr-span">One</span></h3>
-                                            <a href="accrodian.html">Accordion/Toggle</a>
-                                            <a href="alerts.html">Alerts</a>
-                                            <a href="button.html">Button</a>
-                                            <a href="tab.html">tab</a>
-                                            <a href="social-icon.html">Social Icon</a>
-                                            <a href="typography.html">typography</a>
-                                            <a href="form.html">Form</a>
+                                </li> -->
+                                
+                                
+                               <li class="has-child"><a href="#">SUPPORT </a>
+                                    <div class="container-fluid mega-menu support-mm">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h3>SITSPL UNITY <span class="clr-span">SUPPORT</span> Program</h3>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                            <h6><span class="clr-span">SAP ECC UNITY Support Program</span></h6>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="team-two.html">END-TO-END Support​</a>
+                                                        <a href="team-two.html">Additional Module Implementation Support</a>
+                                                        <a href="team-two.html">Business Object(BO) Business Intelligent(BI)-Crystal Reports</a>
+                                                        <a href="team-two.html">Customised Training Support,Management Training & User Training</a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h6><span class="clr-span">SAP Business One UNITY Support</span></h6>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                    <a href="team-two.html">Post Implementation Support</a>
+                                                    <a href="team-two.html">Technical Support</a>
+                                                    <a href="team-two.html">Operational Support</a>
+                                                    <a href="team-two.html">Functional Support</a>
+                                                    <a href="team-two.html">End User Training & Documentation Support</a>
 
-                                        </li>
-                                        <li>
-                                            <h3>Elements <span class="clr-span">Two</span></h3>
-                                            <a href="services-elements.html">Services</a>
-                                            <a href="all-tem.html">tem</a>
-                                            <a href="carosel.html">Carosel</a>
-                                            <a href="call-to-action.html">call to action</a>
-                                            <a href="subscribe.html">Subscribe</a>
-                                            <a href="funfact.html">Fun Fact</a>
-                                            <a href="gallery.html">gallery</a>
-                                        </li>
-                                        <li>
-                                            <h3>Elements <span class="clr-span">Three</span></h3>
-                                            <a href="main-shop.html">Shop page <span class="label label-primary">new</span></a>
-                                            <a href="shop-list.html">shop list view <span class="label label-primary">new</span></a>
-                                            <a href="shop-grid.html">shop grid view <span class="label label-primary">new</span></a>
-                                            <a href="shop-details.html">shop details <span class="label label-primary">new</span></a>
-                                            <a href="shopping-cart.html">cart <span class="label label-primary">new</span></a>
-                                            <a href="checkout.html">checkout <span class="label label-primary">new</span></a>
-                                            <a href="my-account.html">account <span class="label label-primary">new</span></a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
 
-                                        </li>
-                                        <li>
-                                            <h3>Elements <span class="clr-span">Four</span></h3>
-                                            <a href="comming-soon.html">Comming Soon <span class="label label-primary">EX</span></a>
-                                            <a href="events.html">Event <span class="label label-primary">EX</span></a>
-                                            <a href="single-events.html">Event details <span class="label label-primary">EX</span></a>
-                                            <a href="faq_left-seidebar.html">Faq left sidebar</a>
-                                            <a href="faq_right_sidebar.html">Faq Right sidebar</a>
-                                            <a href="progressbar.html">progressbar</a>
-                                            <a href="price-table.html">price table</a>
-                                        </li>
-                                        <li>
-                                            <h3>Elements <span class="clr-span">five</span></h3>
-                                            <a href="project_detials.html">project details</a>
-                                            <a href="404.html">404</a>
-                                            <a href="team-one.html">team one</a>
-                                            <a href="team-two.html">team two</a>
-                                            <a href="single-team.html">single team</a>
-                                            <a href="services-one.html">Service one</a>
-                                            <a href="services-two.html">Service two</a>
-                                        </li>
-                                    </ul>
+                                            <div class="col-md-4">
+                                                <h6><span class="clr-span">SITSPL's Solutions UNITY Support Program</span></h6>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <a href="team-two.html">Support for all the Solution</a>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+
+                                        </div>
+									</div>																		
                                 </li>
-                                <li class="has-child"><a href="#">CONTACT </a>
-                                    <ul class="sub-menu">
+
+                                <li class=""><a href="#">HELPDESK</a>
+                                    <!-- <ul class="sub-menu">
                                         <li><a href="contact.html">contact us 1</a></li>
                                         <li><a href="contactus_2.html">contact us 2</a></li>
-                                    </ul>
+                                    </ul> -->
+                                </li>
+
+                                <li class=""><a href="#">CONTACT </a>
+                                    <!-- <ul class="sub-menu">
+                                        <li><a href="contact.html">contact us 1</a></li>
+                                        <li><a href="contactus_2.html">contact us 2</a></li>
+                                    </ul> -->
                                 </li>
                             </ul>
                         </div>
+                </div>
+
+                <div class="col-lg-2 col-md-2 d-none-sm pull-sm-left">
+  
+                <div class="top-home-two-social-link home-three">
+                        <ul class="text-center">
+                            <li><a href="https://www.facebook.com/SpecialisedITSquad" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/specialised-it-squad-pvt-ltd-9047a0a7" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://twitter.com/SpecialisedITSq" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="btn tooltipped" data-delay="300" data-position="bottom" id="company_eid" data-tooltip="Send Mail: info@specialiseditsquad.com" href="mailto:info@specialiseditsquad.com" onclick="myFunction()"><i class="fa fa-envelope"></i></a></li>
+                            <li><a class="btn tooltipped" data-delay="300" data-position="bottom" data-tooltip="Call Us at 011-42509015" href="tel:01142509015"><i class="fa fa-phone"></i></a></li>
+                            <li><a href="#" class="click-serach-step tooltipped" data-position="bottom" data-delay="50" data-tooltip="Search Website"><i class="fa fa-search"></i></a></li>                          
+                            
+                        </ul>
                     </div>
-                    <!-- end main menu -->
-                    <div class="col-md-1 col-sm-1 col-xs-4">
-                        <div class="search-area">
-                            <a href="#" class="click-serach-step">
-                                <i class="fa fa-search"></i>
+                    <!-- end top social link -->
+
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-10">
+                    <div class="offcanvas-menu-bar text-right">
+                            <a href="#" class="menu-click">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
     <!-- 
     ========================================
-    STEP HEADER AREA START FORM HERE
+    HEADER AREA End HERE
     ========================================
       -->
-
-
-
-      <!-- 
+    <!-- 
     ========================================
-    MOBILE OFFCANVAS MENU
+    OFFCANVAS MENU START FORM HERE
     ========================================
       -->
-    <div class="mobile-menu-offcanvas hidden-sm hidden-md hidden-lg">
-        <div class="mobile-offcanvas-close">
-            <a href="#"> <i class="fa fa-close"></i></a>
+    <div class="home3-offcanvas-menu-rapper">
+        <div class="offcanvas-menu-close">
+            <span class="menu-close-ion"> <i class="fa fa-close"></i></span>
         </div>
-        <div class="mobile-main-menu">
+        <div class="offcanvas-menu">
             <ul>
-                <li class="has-child-3"><a href="#" class="waves-effect waves-light2">home</a>
-                    <ul class="sub-menu-3">
-                        <li><a href="index.html" class="waves-effect waves-light3">home 1</a></li>
-                        <li><a href="index-home2.html" class="waves-effect waves-light3">home 2</a></li>
-                        <li><a href="index-home-3.html" class="waves-effect waves-light3">home 3</a></li>
+                <li class=""><a href="#" class="waves-effect waves-light2">home</a></li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">about us</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="#">About Company</a></li>
+                        <li><a href="#">Management Profile</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Mission</a></li>
                     </ul>
                 </li>
-                <li class="has-child-3"><a href="#" class="waves-effect waves-light2">about us</a>
-                    <ul class="sub-menu-3">
-                        <Li><a href="about-one.html" class="waves-effect waves-light3">about 1</a></Li>
-                        <Li><a href="about-two.html" class="waves-effect waves-light3">about 2</a></Li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">Services</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="#">ERP Software Services</a></li>
+                        <li><a href="#">CONSULTING Services</a></li>
+                        <li><a href="#">APPLICATION Services</a></li>
+                        <li><a href="#">Hosting Services</a></li>
+                        <li><a href="#">Reporting Services</a></li>
+                        <li><a href="#">Other Services</a></li>
+                        
+                        <li><a href="#">See All Services</a></li>
                     </ul>
                 </li>
-                <li class="has-child-3"><a href="#" class="waves-effect waves-light2">portfolio</a>
-                    <ul class="sub-menu-3">
-                        <li><a href="portfolio_1.html" class="waves-effect waves-light3">portfolio 1</a></li>
-                        <li><a href="portfolio_2.html" class="waves-effect waves-light3">portfolio 2</a></li>
-                        <li><a href="portfolio_3.html" class="waves-effect waves-light3">portfolio 3</a></li>
-                        <li><a href="portfolio_4.html" class="waves-effect waves-light3">portfolio 4</a></li>
-                        <li><a href="portfolio_05.html" class="waves-effect waves-light3">portfolio 5</a></li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">Solutions</a>
+                    <ul class="sub-menu-2">
+                    <li><a href="#">Enterprise Solution</a>
+                    </li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#">Tech Solutions</a></li>
                     </ul>
                 </li>
-                <li class="has-child-3"><a href="#" class="waves-effect waves-light2">Services</a>
-                    <ul class="sub-menu-3">
-                        <li><a href="services-one.html" class="waves-effect waves-light3">Services 1</a></li>
-                        <li><a href="services-two.html" class="waves-effect waves-light3">Services 2</a></li>
-                        <li><a href="services-elements.html" class="waves-effect waves-light3">all services</a></li>
+                <li class="has-child-2"><a href="#" class="waves-effect waves-light2">Support</a>
+                    <ul class="sub-menu-2">
+                        <li><a href="blog-grid.html" class="waves-effect waves-light3">SAP ECC UNITY Support Program</a></li>
+                        <li><a href="blog-leftsidebar.html" class="waves-effect waves-light3">SAP Business One USP</a></li>
+                        <li><a href="blog-right-sidebar.html" class="waves-effect waves-light3">SITSPL's Solutions USP</a></li>
                     </ul>
                 </li>
-                <li class="has-child-3"><a href="#" class="waves-effect waves-light2">blog</a>
-                    <ul class="sub-menu-3">
-                        <li><a href="blog-grid.html" class="waves-effect waves-light3">Blog Grid</a></li>
-                        <li><a href="blog-leftsidebar.html" class="waves-effect waves-light3">Blog left Sidebar</a></li>
-                        <li><a href="blog-right-sidebar.html" class="waves-effect waves-light3">Blog right Sidebar</a></li>
-                        <li><a href="single-blog-full-width.html" class="waves-effect waves-light3">single full width</a></li>
-                        <li><a href="single-blog-left-sidebar.html" class="waves-effect waves-light3">single left sidebar</a></li>
-                        <li><a href="single-blog.html" class="waves-effect waves-light3">single Right sidebar</a></li>
-                    </ul>
-                </li>
-                <li class="has-child-3"><a href="#" class="waves-effect waves-light2">pages</a>
-                    <ul class="sub-menu-3">
-                        <li> <a href="main-shop.html" class="waves-effect waves-light3">Shop page <span class="label label-success">new</span></a></li>
-                        <li><a href="shop-list.html" class="waves-effect waves-light3">shop list view <span class="label label-success">new</span></a></li>
-                        <li><a href="shop-grid.html" class="waves-effect waves-light3">shop grid view <span class="label label-success">new</span></a></li>
-                        <li><a href="shop-details.html" class="waves-effect waves-light3">shop details <span class="label label-success">new</span></a></li>
-                        <li><a href="shopping-cart.html" class="waves-effect waves-light3">cart <span class="label label-success">new</span></a></li>
-                        <li><a href="checkout.html" class="waves-effect waves-light3">checkout <span class="label label-success">new</span></a></li>
-                        <li><a href="my-account.html" class="waves-effect waves-light3">account <span class="label label-success">new</span></a></li>
-                        <li><a href="comming-soon.html">Comming Soon <span class="label label-success">EX</span></a></li>
-                        <li><a href="events.html">Event <span class="label label-success">EX</span></a></li>
-                        <li><a href="single-events.html">Event details <span class="label label-success">EX</span></a></li>
-                        <li><a href="404.html">404 <span class="label label-success">EX</span></a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html" class="waves-effect waves-light2">contact</a>
-                </li>
+                <li class=""><a href="#">HELPDESK</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+       
+        <div class="offcampus-extras">
+            <div class="row">
+                <h5 class="text-center title">Our Belief</h5>
+                <div class="col-md-12 text-center">
+                    <div class="row">
+                        <div class="col-md-6">                            
+                        <a href="http://www.makeinindia.com/" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Save Girl Child">  <img src="assets/images/logo/make_in_india.png" class="makeinindia"/></a>
+                        </div>
+
+                        <div class="col-md-6">                            
+                        <a href="#" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Save Girl Child"> <img src="assets/images/logo/swachh_bharat.jpg" class="swachh_bharat"/></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">                            
+                           <a href="http://www.betibachaobetipadhao.co.in/" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Save Girl Child"> <img src="assets/images/logo/betibachao.png" class="betibachao"/> </a>
+                        </div>
+
+                        <div class="col-md-6">                            
+                        <a href="#" class="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Save Girl Child">  <img src="assets/images/logo/go_green.png" class="gogreen"/> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end offcanvas menu -->
+        <div class="offcanvas-social">
+            <ul>
+                <li><a href="https://www.facebook.com/SpecialisedITSquad" class=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/specialised-it-squad-pvt-ltd-9047a0a7"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://twitter.com/SpecialisedITSq"><i class="fa fa-linkedin"></i></a></li>
             </ul>
         </div>
     </div>
-    <div class="mobile-menu-overlay hidden-sm hidden-md hidden-lg"></div>
+    <div class="offcanvas-overlay"></div>
     <!-- 
     ========================================
-    MOBILE OFFCANVAS MENU
+    OFFCANVAS MENU END HERE
     ========================================
       -->
-
     <!-- 
     ========================================
-    HIDDEN MODAL AREA
+    HIDDEN MODAL Search AREA
     ========================================
       -->
 
@@ -279,7 +495,7 @@
                         <div class="col-md-12">
                             <div class="step-serach-main">
                                 <form action="#!">
-                                    <input type="text" placeholder="Serach...">
+                                    <input type="text" placeholder="Search...">
                                     <button type="submit" class="waves-effect waves-light"> <i class="fa fa-search"></i></button>
                                 </form>
                             </div>
@@ -289,10 +505,9 @@
             </div>
         </div>
     </div>
-
-
     <!-- 
     ========================================
-    HIDDEN MODAL AREA
+    HIDDEN MODAL Search AREA END
     ========================================
       -->
+    

@@ -1,0 +1,196 @@
+/* SERVICE MEGA MENU starts*/
+.container-fluid.mega-menu.service-mm {
+    position: absolute;
+    background: #fff;
+    width: 80vw;
+    /* left: -100%;
+    right:-100%; */
+    top: 147%;
+    padding: 10px 30px;
+    text-align:left;
+    z-index:99999 !important;
+    border-top: 3px solid #0c8dc4;
+    border-bottom: 3px solid #f9b43f;
+    transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);
+    webkit-transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto !important;
+    /* transform: translate(-41%, -0.5%); */
+    transform: translate(-39%, -0.5%);
+    max-height: 70vh;
+}
+
+
+.container-fluid.mega-menu.service-mm a {
+    padding: 5px 8px !important;
+    font-size: 12px !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    word-break: break-word;
+    word-spacing: 1px;
+    text-transform: none;
+}
+
+.container-fluid.mega-menu.service-mm h3 {
+    position: relative !important;
+}
+
+.container-fluid.mega-menu.service-mm h3 :after{
+    content: '';
+    position: absolute;
+    background: #1191d0;
+    height: 3px;
+    width: 15px;
+    bottom: -3px;
+    left: 0;
+}
+
+
+.main-menu ul li.has-child:hover .container-fluid.mega-menu.service-mm{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.container-fluid.mega-menu.service-mm h3{
+    margin: 10px 0 10px;
+}
+
+/* SERVICE MEGA MENU Ends */
+
+
+/* Solution Mega menu Starts */
+/* SERVICE MEGA MENU starts*/
+.container-fluid.mega-menu.solution-mm {
+    position: absolute;
+    background: #fff;
+    width: 80vw;
+    /* left: -100%;
+    right:-100%; */
+    top: 147%;
+    padding: 10px 30px;
+    text-align:left;
+    z-index:99999 !important;
+    border-top: 3px solid #0c8dc4;
+    border-bottom: 3px solid #f9b43f;
+    transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);
+    webkit-transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto !important;
+    transform: translate(-47%, -1%);
+    max-height: 70vh;
+}
+
+
+.container-fluid.mega-menu.solution-mm a {
+    padding: 5px 8px !important;
+    font-size: 12px !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    word-break: break-word;
+    word-spacing: 1px;
+    text-transform: none;
+}
+
+.container-fluid.mega-menu.solution-mm h3 {
+    position: relative !important;
+}
+
+.container-fluid.mega-menu.solution-mm h3 :after{
+    content: '';
+    position: absolute;
+    background: #1191d0;
+    height: 3px;
+    width: 15px;
+    bottom: -3px;
+    left: 0;
+}
+
+
+.main-menu ul li.has-child:hover .container-fluid.mega-menu.solution-mm{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.container-fluid.mega-menu.solution-mm h3{
+    margin: 10px 0 10px;
+}
+/* Solution Mega menu Ends */
+
+/* Support Mega menu Starts */
+
+/* SERVICE MEGA MENU starts*/
+.container-fluid.mega-menu.support-mm {
+    position: absolute;
+    background: #fff;
+    width: 80vw;
+    /* left: -100%;
+    right:-100%; */
+    top: 147%;
+    padding: 10px 30px;
+    text-align:left;
+    z-index:99999 !important;
+    border-top: 3px solid #0c8dc4;
+    border-bottom: 3px solid #f9b43f;
+    transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);
+    webkit-transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: all 0.42s cubic-bezier(0.215, 0.61, 0.355, 1);   
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto !important;
+    transform: translate(-56%, -1%);
+    max-height: 70vh;
+}
+
+
+.container-fluid.mega-menu.support-mm a {
+    padding: 5px 8px !important;
+    font-size: 12px !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    word-break: break-word;
+    word-spacing: 1px;
+    text-transform: none;
+}
+
+.container-fluid.mega-menu.support-mm h3 {
+    position: relative !important;
+}
+
+.container-fluid.mega-menu.support-mm h3 :after{
+    content: '';
+    position: absolute;
+    background: #1191d0;
+    height: 3px;
+    width: 15px;
+    bottom: -3px;
+    left: 0;
+}
+
+
+.main-menu ul li.has-child:hover .container-fluid.mega-menu.support-mm{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.container-fluid.mega-menu.support-mm h3{
+    margin: 10px 0 10px;
+}
+
+/* Support Mega menu Ends */
+

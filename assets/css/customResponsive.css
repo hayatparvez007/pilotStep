@@ -1,0 +1,98 @@
+
+@media (max-width: 991px) {
+    .pull-sm-left {
+        float: left !important;
+    }
+    .pull-sm-right {
+        float: right !important;
+    }
+    .pull-sm-none {
+        float: none !important;
+    }
+    .d-none-sm {
+        display: none !important;
+    }
+    .container-fluid.mega-menu.service-mm{
+        overflow: auto !important;
+
+transform: translate(-26%, -2%) !important;
+    }
+
+    .industries-section .industry_name{
+        font-size:14px;
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+    .main-menu ul li a {
+
+        font-size: 12px !important;
+        padding: 5px 12px !important;
+    
+    }
+    }
+    @media only screen and (min-width : 992px) and (max-width : 1200px) {
+        .main-menu ul li a {
+    
+            font-size: 12px !important;
+
+padding: 8px 10px !important;
+        
+        }
+
+        .container-fluid.mega-menu.service-mm{
+            transform: translate(-32%, -3%) ;
+            width:90vw;
+
+        }
+
+        .top-home-two-social-link ul li a {
+            margin: auto 2px;
+        }
+
+        .top-home-two-social-link ul li a.btn.tooltipped {
+            margin: 5px 2px;
+            padding: 6px 6px;
+            line-height: 1;
+            border: none;
+            height: auto;
+        }
+        .top-home-two-social-link ul li a i{
+            font-size:12px !important;
+        }
+
+        }
+
+        @media only screen and (min-width : 992px) and (max-width : 1084px) {
+            .main-menu ul li a {
+        
+                font-size: 10px !important;
+    
+    padding: 8px 10px !important;
+            
+            }
+
+            .container-fluid.mega-menu.service-mm{
+                transform: translate(-35%, -3%) ;
+                width:90vw;
+
+            }
+
+
+            }
+/*         
+            @media only screen and (min-width:1200px) and (max-width:1416px){
+                .top-home-two-social-link.home-three .btn.tooltipped{
+padding:5px !important;
+                    }        
+            }
+
+            
+            @media only screen and (min-width:1200px) and (max-width:1247px){
+                .main-menu ul li a{
+                    font-size:12px !important;
+                }
+                .main-menu ul li {
+                    padding:0px;
+                }
+            } */
