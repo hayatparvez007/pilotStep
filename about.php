@@ -31,7 +31,7 @@
     HEADER,OFFCANVAS,SEARCH MODAL AREA START FROM HERE
     ========================================
       -->
-    <?php include("navigationbar.php"); ?>
+    <?php $page='about';$company='true'; include("navigationbar.php"); ?>
 
 
 

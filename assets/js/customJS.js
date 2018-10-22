@@ -52,20 +52,3 @@ $('.img-parallax').each(function(){
   });
 });
 
-// change active class
-$(function () {
-  setNavigation();
-});
-
-function setNavigation() {
-  var path = window.location.pathname;
-  path = path.replace(/\/$/, "");
-  path = decodeURIComponent(path);
-
-  $(".step-header .main-menu ul a").each(function () {
-      var href = $(this).attr('href');
-      if (path.substring(0, href.length) === href) {
-          $(this).closest('li').addClass('active');
-      }
-  });
-}

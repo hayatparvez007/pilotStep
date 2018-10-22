@@ -18,13 +18,13 @@
                 <div class="col-lg-7 col-md-7 col-sm-11">
                 <div class="main-menu pull-sm-none">
                             <ul>
-                                <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;HOME</a>
+                                <li class="<?php if($page=='index'){echo 'active';} ?>"><a href="index"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;HOME</a>
                                  
                                 </li>
-                                <li class="has-child"><a href="about.php">ABOUT US </a>
+                                <li class="<?php if($page=='about'){echo 'active';} ?> has-child"><a href="about">ABOUT US </a>
                                 
                                 <ul class="sub-menu">
-                                        <li><a href="about-one.html">About Company</a></li>
+                                        <li class="<?php if($page=='about' && $company=='true'){echo 'active';} ?>"><a href="about">About Company</a></li>
                                         <li><a href="about-two.html">Management Profile</a></li>
                                         <li><a href="about-two.html">Vision</a></li>
                                         <li><a href="about-two.html">Mission</a></li>
