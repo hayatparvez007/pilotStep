@@ -30,6 +30,10 @@
     .main-menu ul li.active ul li.active {
         background: #1590c5;
     }
+
+    .main-menu ul li.active ul li.active a {
+        color: #fff;
+    }
     
     .step-preloader-rapper .progress {
         background: rgba(55, 77, 134, 0.8);
@@ -798,3 +802,132 @@ a#scrollUp:hover::after {
 }
 
 /* SITSPL FOOTER Ends */
+
+
+/* ******************** INNER PAGES CSS starts*****************  */
+/* page 1 starts */
+#breadcrumb{
+    margin-top: 65px;
+    margin-bottom: 10px;
+
+    background-color: #374d86;
+}
+
+#breadcrumb .breadcrumb{
+    padding: 5px 10px;
+    background-color: #374d86;
+    font-size: 14px;
+}
+
+nav#breadcrumb .nav-wrapper{
+    text-align:right;
+}
+
+#breadcrumb .breadcrumb:hover {
+    color: #f9b33c;
+}
+
+
+.stpes-tags li a{
+    font-size: 12px;
+    letter-spacing: 0.4;
+    padding: 1px 6px;
+}
+
+.stpes-tags li a:hover {
+    background: #1590c5;
+    color: #fff;
+    border: 1px solid #374d86;
+}
+
+.quick-links li a:hover {
+    padding-left: 8px;
+}
+
+.widget-heading{
+    margin: 0 0 5px;
+}
+
+ul.quick-links li a {
+    font-size: 13px;
+}
+
+/* page 1 ends */
+
+.events-article h3 {
+    border-bottom: none;
+}
+
+.events-article p{
+    padding:10px;
+}
+.events-detilas-socilas {
+    margin-bottom: 30px;
+}
+
+.head-clr {
+    color: #1590c5;
+}
+
+h2.events-title {
+    text-decoration: underline;
+}
+
+.event-tag.fa-color i.fa {
+    color: #1590c5;
+}
+
+.events-detilas-socilas ul li a:hover {
+    border: 1px solid #f9ab26;
+    color: #fab94b;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.price-a-2{
+    background-image: linear-gradient(120deg,#374d86, #374d86 61%, #1590c5 61%, #1590c5 100%);
+    width: 180px;
+}
+
+.list-cart-hover {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    border-top:none;
+}
+
+.mission-section .shop-list-left{
+    float: right;
+    
+    padding-left: 0;
+    padding-top: 0;
+    width: 30%; 
+}
+
+.mission-section .shop-list-right{
+    float: left; 
+    width: 70%;  
+    padding-right: 35px;
+    padding-top: 39px; 
+      
+}
+
+.shop-list-rapper:hover .shop-right-segment a h2, .shop-list-rapper:hover .shop-right-segment span, .shop-list-rapper:hover .list-cart-hover ul li a {
+    color: #1590c5;
+}
+
+.shop-list-rapper:hover .list-cart-hover{
+    border-color: #1590c5;
+}
+
+
+
+
+
+/* ******************** INNER PAGES CSS ends *****************  */
+
+
+
+
+
