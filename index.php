@@ -3,7 +3,7 @@
 
 <?php include("head.php");  ?>
 
-<body class="home-page-3">
+<body class="home-page-3"  data-spy="scroll" data-target=".main-menu" data-offset="50">
 <!-- 
     ========================================
     SITSPL PRELOADER

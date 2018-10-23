@@ -921,6 +921,67 @@ h2.events-title {
     border-color: #1590c5;
 }
 
+/* Services Css Start */
+.single-p-list img {
+    filter: grayscale(100%);
+}
+
+.single-feature-product-step img {
+    width: 100%;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+
+.mt-5{
+    margin-top:42px;
+}
+
+.mt-2{
+    margin-top:20px;
+}
+
+.service-breadcrum{
+    padding: 50px 0;
+}
+
+.service-showcase{
+    padding-bottom:5px;
+}
+
+.single-counter-1 i.fa {
+    font-size: 45px;
+    color: #1590c5;
+}
+.single-counter-1{
+    border-bottom: 4px solid #1590c5;
+}
+
+.services-boxes .single-counter-1{
+    padding: 25px;
+}
+
+.services-boxes .text-move {
+    float: none;
+    overflow: hidden;
+    text-align: left;
+}
+
+.mb-5{
+    padding-bottom:60px;
+}
+
+.line-tab .nav-tabs > li.active > a, .line-tab .nav-tabs > li.active > a:focus, .line-tab .nav-tabs > li.active > a:hover, .line-tab .nav-tabs.nav-justified > .active > a, .line-tab .nav-tabs.nav-justified > .active > a:focus, .line-tab .nav-tabs.nav-justified > .active > a:hover{
+    border-bottom: 1px solid #1590c5 !important;
+}
+
+.price-header {
+    background: #374d86;
+}
+.price-body {
+    padding: 20px;
+}
+/* Services Css Ends */
+
 
 
 

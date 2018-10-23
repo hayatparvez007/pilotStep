@@ -31,7 +31,7 @@
     HEADER,OFFCANVAS,SEARCH MODAL AREA START FROM HERE
     ========================================
       -->
-    <?php $page='about';$company='true'; include("navigationbar.php"); ?>
+    <?php $page='solutions'; include("navigationbar.php"); ?>
 
     <nav id="breadcrumb">
     <div class="nav-wrapper">

@@ -24,18 +24,18 @@
                                 <li class="<?php if($page=='about'){echo 'active';} ?> has-child"><a href="about">ABOUT US </a>
                                 
                                 <ul class="sub-menu">
-                                        <li class="<?php if($page=='about' && $company=='true'){echo 'active';} ?>"><a href="about">About Company</a></li>
-                                        <li><a href="about-two.html">Management Profile</a></li>
-                                        <li><a href="about-two.html">Vision</a></li>
-                                        <li><a href="about-two.html">Mission</a></li>
+                                        <li class=""><a href="about">About Company</a></li>
+                                        <li class=""><a href="about#mgt">Management Profile</a></li>
+                                        <li class=""><a href="about#vision">Vision</a></li>
+                                        <li class=""><a href="about#mission">Mission</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="has-child"><a href="#">SERVICES </a>
+                                <li class="<?php if($page=='services'){echo 'active';} ?> has-child"><a href="services">SERVICES </a>
                                     <div class="container-fluid mega-menu service-mm">
 										<div class="row">
 											<div class="col-md-4">
-												<h3>ERP Software <span class="clr-span"> Services</span></h3>
+                                            <a href="ERPSoftwareService"><h3>ERP Software <span class="clr-span"> Services</span></h3></a>
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
 														<h6><span class="clr-span">SAP ECC / S/4HANA <span class="label label-primary">new</span></span></h6>
@@ -163,7 +163,7 @@
                                 </li>
 
                                
-                               <li class="has-child"><a href="#">SOLUTIONS </a>
+                               <li class="<?php if($page=='solutions'){echo 'active';} ?> has-child"><a href="solutions">SOLUTIONS </a>
                                     <div class="container-fluid mega-menu solution-mm">
 										<div class="row">
 											<div class="col-md-4">
