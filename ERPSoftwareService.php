@@ -43,6 +43,74 @@
     </div>
   </nav>
 
+<!-- 
+    ===================================
+    SITSPL ERP Explained section starts
+    ===================================
+-->
+<section class="section-padding mt-5">
+    <div class="container">
+        <div class="row" id="owl-demo">
+            <div class="col-md-4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/erpsoftware/sap.png">
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4">SAP ECC<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">Read more..</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">SAP ECC<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div> <!--single end  -->
+            <div class="col-md-4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/erpsoftware/sapb1.png">
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4">SAP Business One<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">Read More..</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">SAP B1<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div> <!--single end  -->
+            <div class="col-md-4">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/erpsoftware/customised.png">
+                    </div>
+                    <div class="card-action">
+                        <span class="card-title activator grey-text text-darken-4">Our ERP<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">Read More..</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Our ERP<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div> <!--single end  -->
+        </div>
+    </div>
+</section>
+
+<!-- 
+    ===================================
+    SITSPL ERP Explained section starts
+    ===================================
+-->
+
+
+
+
+
+
 
 <!-- 
 ========================================
@@ -248,7 +316,8 @@ STEP PRODUCT FEATURE END FORM HERE
         </div>
 </div>
 <div class="big-spacer"></div>
-    <!-- 
+
+<!-- 
 ========================================
 STEP TEAMONE AREA END FORM HERE
 ========================================

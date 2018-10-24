@@ -338,7 +338,7 @@
                                     </ul> -->
                                 </li>
 
-                                <li class=""><a href="#">CONTACT </a>
+                                <li class="<?php if($page=='contact-us'){echo 'active';} ?>"><a href="contact-us">CONTACT </a>
                                     <!-- <ul class="sub-menu">
                                         <li><a href="contact.html">contact us 1</a></li>
                                         <li><a href="contactus_2.html">contact us 2</a></li>

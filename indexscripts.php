@@ -30,6 +30,14 @@
     <script src="assets/js/jquery.countdown.min.js"></script>
     <!-- end jquery slider range -->
     <script src="assets/js/slider-range.js"></script>
+    <!-- ripple scritp -->
+    <script src="assets/js/jquery.ripples-min.js"></script>
+    <!-- google map api -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7CQl6fRhagGok6CzFGOOPne2X1u1spoA"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFXMFTL97MBAHfY7PdV5qeM2b-yHQzAfI"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKk3_V3JO4QCVFbm2VX2IDoh4MSeEBQsw"  async defer></script> -->
+    <!-- map js -->
+    <script src="assets/js/map.js"></script>
     <!-- custom scripts -->
     <script src="assets/js/main.js"></script>
     <!-- custom scripts -->

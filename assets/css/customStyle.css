@@ -932,7 +932,7 @@ h2.events-title {
     border-color: #1590c5;
 }
 
-/* Services Css Start */
+/* ERPSoftware Services Css Start */
 .single-p-list img {
     filter: grayscale(100%);
 }
@@ -991,9 +991,33 @@ h2.events-title {
 .price-body {
     padding: 20px;
 }
-/* Services Css Ends */
+
+img.activator{
+    padding: 30px;
+}
+
+/*ERPSoftware Services Css Ends */
 
 
+/* Contact Page start */
+.con-i i.fa{
+    color: #1590c5;
+}
+
+form.main-contact-form-contact input:focus {
+    border: 1px solid #1590c5;
+}
+
+form.main-contact-form-contact textarea:focus{
+    border: 1px solid #1590c5;
+}
+
+.contact-us.section-padding{
+    padding: 50px 0 50px;
+}
+
+
+/* Contact Page ends */
 
 
 
