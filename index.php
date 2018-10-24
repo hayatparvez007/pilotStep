@@ -46,7 +46,7 @@
     ========================================
       -->
   
-    <div class="swiper-container">
+      <div class="swiper-container myslider">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
@@ -55,7 +55,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="slide-content2 text-right">
-                                <h2 id="workStartPhrase" class="animated delay200ms fatten" data-animation="bounceIn">Together we Create Your Business</h2>
+                                <h2 id="workStartPhrase" class="animated delay200ms fatten" data-animation="bounceIn">Providing Technological Care To Your Business</h2>
                                 <p id="workStartPhrase2" class="animated delay200ms fatten" data-animation="flipInX">We are SITSPL, a team of sincere, hardworking professionals with expertise in respective fields with immpecable record of professional efficiency. We offer an effective & creative solutions in every vertical in which we deal. </p>
                                 <a href="#!" class="btn-mr white waves-effect waves-teal pill animated delay200ms fatten" id="workStartPhrase3" data-animation="slideInLeft">SEE MORE</a>
                                 <a href="#!" class="btn-mr demobtn waves-effect waves-light pill animated delay200ms fatten" id="workStartPhrase4" data-animation="slideInRight">FREE DEMO</a>
@@ -73,7 +73,7 @@
                         <div class="col-md-12">
                             <div class="slide-content2 text-right">
                                 <h2 id="workStartPhrase6" class="animated delay200ms fatten" data-animation="bounceIn">Together we Create Your Business</h2>
-                                <p id="workStartPhrase7" class="animated delay200ms fatten" data-animation="flipInX">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis. </p>
+                                <p id="workStartPhrase7" class="animated delay200ms fatten" data-animation="flipInX">We do our work as seriously you do.We know our work as an IT solution provider as efficiently as you know your's.Together we can make the Perfect Blend.Together, we can create a Masterpiece,a perfect tailor-made unique IT solution which can give 360 degree view to your business. </p>
                                 <a href="#!" class="btn-mr white waves-effect waves-teal pill animated delay200ms fatten" id="workStartPhrase8" data-animation="slideInLeft">SEE MORE</a>
                                 <a href="#!" class="btn-mr waves-effect waves-light pill animated delay200ms fatten" id="workStartPhrase9" data-animation="slideInRight">Free Demo</a>
                             </div>
@@ -89,8 +89,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="slide-content2 text-right">
-                                <h2 id="workStartPhrase10" class="animated delay200ms fatten" data-animation="bounceIn">Together we Create Your Business</h2>
-                                <p id="workStartPhrase11" class="animated delay200ms fatten" data-animation="flipInX">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis. </p>
+                                <h2 id="workStartPhrase10" class="animated delay200ms fatten" data-animation="bounceIn">Can Spearhead Automation for Your Business</h2>
+                                <p id="workStartPhrase11" class="animated delay200ms fatten" data-animation="flipInX">Gain an edge over your competitor who are still preferring to do business the old-fashioned way,with the world class IT solutions which automates the processes, which simplifies company’s operations & speed them up by a great deal. </p>
                                 <a href="#!" class="btn-mr white waves-effect waves-teal pill animated delay200ms fatten" id="workStartPhrase12" data-animation="slideInLeft">SEE MORE</a>
                                 <a href="#!" class="btn-mr waves-effect waves-light pill animated delay200ms fatten" id="workStartPhrase13" data-animation="slideInRight">OUR SERVICES</a>
                             </div>
@@ -104,6 +104,7 @@
         <div class="swiper-pagination step"></div>
     </div>
 
+
 <!-- 
     ========================================
     SITSPL SLIDER AREA END FORM HERE
@@ -114,6 +115,7 @@
 STEP SERVICES AREA START FORM HERE
 ========================================
 -->
+
 
     <div class="step-services section-pading services-page top_services">
         <div class="container">
@@ -127,8 +129,8 @@ STEP SERVICES AREA START FORM HERE
                 <div class="col-md-4 mp-0 mbt-30">
                     <div class="step-single-services waves-effect waves-light-1">
                         <i class="fa fa-snowflake-o"></i>
-                        <h2 class="services-title3">Web/Apps Development</h2>
-                        <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr.</p>
+                        <h2 class="services-title3">ERP Implementation</h2>
+                        <p>Capuring your Business process in an integrated,scalable software system with us</p>
                     </div>
                 </div>
                 <!-- end single services -->
@@ -136,15 +138,15 @@ STEP SERVICES AREA START FORM HERE
                     <div class="step-single-services waves-effect waves-light-1">
                         <i class="fa fa-users"></i>
                         <h2 class="services-title3">Consultancy</h2>
-                        <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr.</p>
+                        <p>Spearheading Innovative Solution with our proven consultancy services.</p>
                     </div>
                 </div>
                 <!-- end single services -->
                 <div class="col-md-4 mp-0 mbt-30">
                     <div class="step-single-services waves-effect waves-light-1">
                         <i class="fa fa-lightbulb-o"></i>
-                        <h2 class="services-title3">Superior Ideas</h2>
-                        <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr.</p>
+                        <h2 class="services-title3">Web & Mobile Apps Development</h2>
+                        <p>Turning your ideas into a Customized,Scalable Web & Mobile Solution keeping code standards </p>
                     </div>
                 </div>
                 <!-- end single services -->
@@ -152,7 +154,7 @@ STEP SERVICES AREA START FORM HERE
                     <div class="step-single-services waves-effect waves-light-1">
                         <i class="fa fa-universal-access"></i>
                         <h2 class="services-title3">Customization</h2>
-                        <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr.</p>
+                        <p>Customer focussed modified solution to suit the need.</p>
                     </div>
                 </div>
                 <!-- end single services -->
@@ -160,22 +162,22 @@ STEP SERVICES AREA START FORM HERE
                     <div class="step-single-services waves-effect waves-light-1">
                         <i class="fa fa-laptop"></i>
                         <h2 class="services-title3">Online/Offline Support</h2>
-                        <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr.</p>
+                        <p>A seamless support services to keep things running the way it should</p>
                     </div>
                 </div>
                 <!-- end single services -->
                 <div class="col-md-4 mp-0">
                     <div class="step-single-services waves-effect waves-light-1">
                         <i class="fa fa-briefcase"></i>
-                        <h2 class="services-title3">ERP Implementation</h2>
-                        <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr.</p>
+                        <h2 class="services-title3">Network Security</h2>
+                        <p>We ensure the security of Organizational assets and all network traffic. </p>
                     </div>
                 </div>
                 <!-- end single services -->
             </div>
         </div>
     </div>
-    <!-- 
+     <!-- 
 ========================================
 STEP SERVICES AREA END FORM HERE
 ========================================
@@ -247,7 +249,7 @@ STEP industries-section AREA start FORM HERE
                     <div class="section-title text-center">
                     <h2 class="section-heading2"><span class="sec-bar-2">Industries Served</span></h2>
                         <div class="middle-con">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod sint tempor incididunt ut labore et dolore magna aliqua. Excepteur occaecat cupidatat non proident.</p>
+                            <p>THE BEST RESULTS ARE OBTAINED BY TASKING THE RIGHT PEOPLE TO THE RIGHT PROJECT.<br>We have been playing pivotal role in making Industries SAP ERP enabled.</p>
                         </div>
                     </div>
                 </div>
@@ -779,16 +781,16 @@ SITSPL CLIENT COunter AREA START FORM HERE
                                         <div class="col-md-3 col-sm-6 col-xs-12 stb-30 mbt-30">
                                             <div class="single-counter home-two">
                                                 <div class="counter-rapper">
-                                                    <span class="counter">1400</span>
+                                                    <span class="counter">200</span>
                                                 </div>
-                                                <span class="counter-text">SATISFY CLIENT</span>
+                                                <span class="counter-text">SATISFIED CLIENT</span>
                                             </div>
                                         </div>
                                         <!-- end single counter -->
                                         <div class="col-md-3 col-sm-6 col-xs-12 mbt-30">
                                             <div class="single-counter home-two">
                                                 <div class="counter-rapper">
-                                                    <span class="counter">1500</span>
+                                                    <span class="counter">200</span>
                                                 </div>
                                                 <span class="counter-text">COMPLETE PROJECT</span>
                                             </div>
@@ -992,7 +994,7 @@ STEP TEAMONE AREA END FORM HERE
                     <div class="section-title text-center">
                         <h2 class="section-heading3">SITSPL Photo Stream </h2>
                         <div class="middle-con">
-                            <p>The release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop software.</p>
+                            <p>The pool of pictures speaks volume about our commitment,professional competence & lively team that work together to achieve what is entrusted on them.</p>
                         </div>
                     </div>
                 </div>
@@ -1094,7 +1096,7 @@ STEP TEAMONE AREA END FORM HERE
                                 <!-- end hover contet -->
                             </div>
                             <div class="tem-text-2">
-                                <h3>JOHN SMITH</h3>
+                                <h3>SAP Meet</h3>
                                 <!-- <h4>Project Planner</h4> -->
                             </div>
                         </div>
@@ -1142,7 +1144,7 @@ SITSPL TESTIMONIALS  AREA END FORM HERE
                             <div class="right-events-carosel">
                                 <h5>Arvind Chaudhary</h5>
                                 <span>Managing Director, Ample AutoTek Pvt. Ltd.</span>
-                                <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the ever since the printer took a galley....</p>
+                                <p>Specialised IT Squad has a strong vision and commitment to approach any project and it is this that make them an unique service provider.Team is very professional & has been always keen to take things delivered on time.</p>
                                 <div class="events-detilas-socilas">
                                     <ul>
                                         <li><a href="#!" class="waves-effect waves-teal"><i class="fa fa-facebook"></i></a></li>
@@ -1160,7 +1162,7 @@ SITSPL TESTIMONIALS  AREA END FORM HERE
                             <div class="right-events-carosel">
                                 <h5>Mohit</h5>
                                 <span>Managing Director, Windsor Group</span>
-                                <p>Lorem Ipsum is simply dummy text the printing and typesetting industry. Lorem Ipsum has been the ever since the printer took a galley....</p>
+                                <p>Aloof from jargons,sales driven pitch since beginning of project winning,Specialised IT Squad has transformed our system to SAP enabled system </p>
                                 <div class="events-detilas-socilas">
                                     <ul>
                                         <li><a href="#!" class="waves-effect waves-teal"><i class="fa fa-facebook"></i></a></li>
@@ -1172,7 +1174,7 @@ SITSPL TESTIMONIALS  AREA END FORM HERE
                             </div>
                         </div>
                         <!-- end single carsoel events -->
-                        <div class="single-enevt-carosel">
+                        <!-- <div class="single-enevt-carosel">
                             <div class="left-events-carosel">
                             </div>
                             <div class="right-events-carosel">
@@ -1188,7 +1190,7 @@ SITSPL TESTIMONIALS  AREA END FORM HERE
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- end single carsoel events -->
                     </div>
                 </div>

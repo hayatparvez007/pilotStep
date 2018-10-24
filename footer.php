@@ -18,7 +18,7 @@ STEP FOOTER AREA START FORM HERE
                             <!-- <p>The light within US bows to the light within YOU.</p> -->
                             <!-- <p><span class="head-clr">Specialised IT Squad Pvt. Ltd.</span></p> -->
                             <ul class="footer-address">
-                                <li> <span><i class="fa fa-home"></i></span>A 1/A, First Floor, Block D, Acharya Niketan, Mayur Vihar Phase 1, New Delhi, Delhi 110091</li>
+                                <li> <span><i class="fa fa-home"></i></span>A 1/A, First Floor, Acharya Niketan, Mayur Vihar Phase 1, New Delhi, Delhi 110091</li>
                                 <li> <span><i class="fa fa-envelope-o"></i></span> <a href="mailto:info@specialiseditsquad.com"> info@specialiseditsquad.com</a></li>
                                 <li> <span><i class="fa fa-phone"></i></span><a href="tel:01142509015">011-42509015</a> </li>
                                 <li> <span><i class="fa fa-mobile"></i></span>+91-9899790165, +91-9211031115 </li>

@@ -37,7 +37,7 @@
     <div class="nav-wrapper">
       <div class="col s12">
         <a href="index" class="breadcrumb">Home</a>
-        <a href="about" class="breadcrumb">Services</a>
+        <a href="about" class="breadcrumb">All Services</a>
         <!-- <a href="#" class="breadcrumb"></a> -->
       </div>
     </div>

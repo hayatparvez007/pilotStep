@@ -364,6 +364,17 @@ img.gogreen {
     font-size:20px;
 }
 
+
+/*Slider Section Starts */
+
+.myslider .slide-content2 h2 {
+    font-size: 50px;
+}
+
+/*Slider Section ends*/
+
+
+
 /* Service Section starts */
 .section-pading {
     padding: 50px 0 100px;

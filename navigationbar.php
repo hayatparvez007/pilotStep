@@ -154,7 +154,7 @@
                                         <div class="col-md-6 col-sm-6">
 										 
                                             <a href="services-two.html">Software Licensing</a>
-                                            <a href="services-two.html"><span class="clr-span">SEE ALL SERVICES</span></a>
+                                            <a href="services"><span class="clr-span">SEE ALL SERVICES</span></a>
                                             
 													</div>	
 													
