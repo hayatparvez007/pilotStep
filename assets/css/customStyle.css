@@ -6,6 +6,9 @@
 
 .mega-menu {
     box-shadow: 0px 0px 2px 0px #c1c1c1;
+    transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) !important;
+    -webkit-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    -moz-transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 /* For selection ends */
@@ -166,24 +169,27 @@
 
     .home3-offcanvas-menu-rapper{
         z-index:10000;
+        top: 0 !important;
     }
     .offcanvas-overlay.active{
         z-index:9999;
     }
     .step-header.home-three{
         z-index: 9998;
-        
-        
-
+        /* new changes */
+        position: relative;
+        top:0;     
     }
 
     .step-header.home-three.sticky{
         box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.1);
         box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+        position: fixed;
     }
 
     .offcanvas-overlay{
         background: #ffffff none repeat scroll 0 0;
+        top:0;
     }
 
     .btn, .btn-large{
@@ -474,6 +480,10 @@ li.single-gallery-step:hover span.industry_name {
     transition: font-size 0.5s ease-in-out;
 }
 
+li.single-gallery-step span.industry_name {
+    transition: font-size 0.4s ease-out;
+}
+
 li.single-gallery-step:hover .gallery-view a i {
     color: #fff;
     font-size: 30px;
@@ -590,12 +600,12 @@ a#scrollUp:hover::after {
   
   .process-section .tl-content {
     -webkit-transform: translate3d(0, 0, 0) translateY(25px);
-            transform: translate3d(0, 0, 0) translateY(25px);
+    transform: translate3d(0, 0, 0) translateY(25px);
     position: relative;
     z-index: 1;
     text-align: center;
     margin: 0 1.618em;
-    top: 38%;
+    top: 33%;
     opacity: 0;
   }
   .process-section .tl-content h1 {
@@ -818,8 +828,8 @@ a#scrollUp:hover::after {
 /* ******************** INNER PAGES CSS starts*****************  */
 /* page 1 starts */
 #breadcrumb{
-    margin-top: 65px;
-    margin-bottom: 10px;
+    /* margin-top: 65px;*/
+    margin-bottom: 10px; 
 
     background-color: #374d86;
 }
@@ -937,6 +947,7 @@ h2.events-title {
     filter: grayscale(100%);
 }
 
+
 .single-feature-product-step img {
     width: 100%;
     border-radius: 50%;
@@ -953,6 +964,7 @@ h2.events-title {
 
 .service-breadcrum{
     padding: 50px 0;
+    background:none;
 }
 
 .service-showcase{
@@ -981,6 +993,15 @@ h2.events-title {
     padding-bottom:60px;
 }
 
+.our-service-icon:hover {
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.14);
+    transition: .5s;
+}
+
+.our-service-icon:hover h5 span{
+    color:#1590c5;
+}
+
 .line-tab .nav-tabs > li.active > a, .line-tab .nav-tabs > li.active > a:focus, .line-tab .nav-tabs > li.active > a:hover, .line-tab .nav-tabs.nav-justified > .active > a, .line-tab .nav-tabs.nav-justified > .active > a:focus, .line-tab .nav-tabs.nav-justified > .active > a:hover{
     border-bottom: 1px solid #1590c5 !important;
 }
@@ -995,6 +1016,259 @@ h2.events-title {
 img.activator{
     padding: 30px;
 }
+
+.card .card-image img{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.projects-detials-active .owl-nav div, .portfolio-carosel-active .owl-nav div{
+    border: 1px solid #374d86;
+    background: #374d86;
+}
+
+.mx-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.py-2{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.portfolio-carosel-active .owl-nav div:hover {
+    background: #1590c5;
+    color: #fff;
+    border-color: #fab757;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+    color: #1590c5;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #fab757;
+}
+
+.card.sticky-action .card-image img {
+    transition: all 0.23s ease-out;
+}
+.card.sticky-action:hover .card-image img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.25s ease-in;
+}
+
+.card.sticky-action:hover {
+    box-shadow: 1px 1px 25px rgba(0,0,0,0.2);
+    transform: scale(1);
+}
+
+h2.center.light-blue-text i {
+    font-size: 45px;
+    color: #1590c5;
+}
+
+.hover-content:hover{
+    box-shadow: 1px 1px 25px rgba(0,0,0,0.2);
+    transition:all 0.2s ease-in;
+}
+.hover-content{
+    padding:10px;
+}
+
+.section1 {
+    background-image: url(../images/section-img/section_bg.jpg);
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.single_title {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.p_100 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.single_title h2 {
+    font-size: 32px;
+    color: #242424;
+}
+
+.what_we_do_area .what_we_inner {
+    margin-bottom: -50px;
+}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.what_we_item {
+    padding: 0px 20px;
+}
+
+.what_we_item .media {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.what_we_item .media .d-flex {
+    padding-right: 30px;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.what_we_item .media .media-body h4 {
+    font-size: 20px;
+    color: #242424;
+    margin-bottom: 15px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.what_we_item .media .media-body p {
+    margin-bottom: 0px;
+}
+
+.what_we_item .media {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.what_we_item .media .d-flex {
+    padding-right: 30px;
+}
+
+.what_we_item .media .d-flex i {
+    line-height: 40px;
+    color: #024ae6;
+}
+
+.what_we_item .media .d-flex i:before {
+    font-size: 40px;
+}
+
+.what_we_item .media .media-body h4{
+    font-weight: bold;
+}
+
+.what_we_item .media .media-body h4:hover {
+    color: #024ae6;
+}
+.what_we_item .media .d-flex {
+    padding-right: 30px;
+}
+
+.row.what_we_inner .col-lg-6:nth-child(6) .what_we_item .media,.row.what_we_inner .col-lg-6:nth-child(5) .what_we_item .media  {
+    border-bottom: none;
+}
+
+/* Video part */
+.left_inner_collection {
+        padding: 80px 50px;
+        text-align: center;
+        background: #f1f1eb;
+}
+
+.inner_content {
+    background: #ffffff;
+    padding: 50px 30px;
+    box-shadow: 0px 0px 20px rgba(179,179,179,0.51);
+}
+
+.left_inner_collection h5 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #252531;
+    transition: all .8s;
+    font-family: 'Poppins', sans-serif;
+    color: #252531;
+}
+
+
+
+.left_inner_collection p {
+    line-height: 40px;
+    color: #252531;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.left_inner_collection .inner_content a.button {
+    margin-top: 40px;
+    width: 170px;
+    height: 50px;
+}
+
+.button {
+    font: 600 14px 'Poppins', arial, sans-serif;
+    display: inline-block;
+    background: #374d86;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border: 2px solid #374d86;
+}
+
+a {
+    color: #666666;
+    text-decoration: none;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.left_inner_collection .inner_content a.button:hover{
+    background:#fab757;
+    border:#fab757;
+    color:#000;
+}
+
+.zero_padding{
+    padding:0;
+}
+
+.video-container{
+    height: -webkit-fill-available;
+    height: fill;
+}
+
+.owl-nav div:hover {
+    background: #1590c5;
+    color: #fff;
+    border-color: #fab757;
+}
+
+/* Video part ends */
+
+
 
 /*ERPSoftware Services Css Ends */
 
@@ -1023,7 +1297,39 @@ form.main-contact-form-contact textarea:focus{
 
 /* ******************** INNER PAGES CSS ends *****************  */
 
+/* mega menu revised changes starts */
+.container-fluid.mega-menu.service-mm a:hover {
+    padding-left: 9.4px !important;
+    letter-spacing: 0;
+}
 
+.container-fluid.mega-menu.service-mm a:hover i{
+    color:#bf7b07;
+    font-weight: bolder;
+}
+
+.container-fluid.mega-menu.solution-mm a:hover{
+    padding-left: 9.4px !important;
+}
+.container-fluid.mega-menu.solution-mm a:hover i{
+    color:#bf7b07;
+    font-weight: bolder;
+}
+
+.container-fluid.mega-menu.support-mm a{
+    letter-spacing: 0.4px;
+}
+
+.container-fluid.mega-menu.support-mm a:hover{
+    padding-left: 11px !important;
+}
+.container-fluid.mega-menu.support-mm a:hover i{
+    color:#bf7b07;
+    font-weight: bolder;
+}
+
+
+/* mega menu revised changes ends */
 
 
 

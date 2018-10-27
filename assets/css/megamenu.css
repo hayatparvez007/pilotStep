@@ -2,7 +2,7 @@
 .container-fluid.mega-menu.service-mm {
     position: absolute;
     background: #fff;
-    width: 80vw;
+    width: 90vw;
     /* left: -100%;
     right:-100%; */
     top: 147%;
@@ -21,7 +21,7 @@
     overflow: auto !important;
     /* transform: translate(-41%, -0.5%); */
     transform: translate(-39%, -0.5%);
-    max-height: 70vh;
+    max-height: 80vh;
 }
 
 
@@ -29,11 +29,12 @@
     padding: 5px 8px !important;
     font-size: 12px !important;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     line-height: 1.4;
     word-break: break-word;
     word-spacing: 1px;
     text-transform: none;
+    transition: all 0.24s ease-in-out;
 }
 
 .container-fluid.mega-menu.service-mm h3 {
@@ -95,7 +96,7 @@
     padding: 5px 8px !important;
     font-size: 12px !important;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
     line-height: 1.4;
     word-break: break-word;
     word-spacing: 1px;

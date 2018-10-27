@@ -119,12 +119,14 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400; }
+  font-weight: 400; 
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px;
   padding: 0 0 0px;
-  font-family: "Source Serif Pro", serif; }
+  font-family: "Source Serif Pro", serif; 
+}
 
 h1 {
   font-size: 50px; }
@@ -438,6 +440,66 @@ input:focus {
 
 .home-page-3 {
   overflow-x: hidden; }
+
+  .mt-0{
+    margin-top:0;
+  }
+ 
+  .mt-2{
+    margin-top:20px;
+  }
+  
+  .mt-3{
+    margin-top:30px;
+  }
+
+  .mt-4{
+    margin-top:40px;
+  }
+
+  .mt-5{
+    margin-top:50px;
+  }
+
+  .w-20{
+    width:20%;
+  }
+  .w-25{
+    width:25%;
+  }
+  .w-30{
+    width:30%;
+  }
+  .w-50{
+    width:50%;
+  }
+  .w-60{
+    width:60%;
+  }
+  .w-70{
+    width:70%;
+  }
+  .w-75{
+    width:75%;
+  }
+  .w-80{
+    width:80%;
+  }
+
+  .float-left{
+    float:left;
+  }
+  .float-right{
+    float:right;
+  }
+
+  .text-left{
+    text-align:left;
+  }
+  
+  .text-right{
+    text-align:right;
+  }
 
 /*1.1  STEP PRELODER CSS */
 .step-preloader-rapper {

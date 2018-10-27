@@ -318,6 +318,9 @@
         $('.related-project-active,.portfolio-carosel-active').owlCarousel({
             loop: true,
             nav: true,
+            autoplay:true,
+            autoplayTimeout:1500,
+            autoplayHoverPause:true,
             mouseDrag: true,
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             responsive: {

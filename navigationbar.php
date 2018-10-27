@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-lg-2 col-md-2 col-sm-12 col-xs-2">
                 <div class="home-three-logo">
-                        <a href="index.html">
+                        <a href="index">
                             <img src="assets/images/logo/sitspl_logo.png" alt="">
                         </a>
                     </div>
@@ -18,7 +18,7 @@
                 <div class="col-lg-7 col-md-7 col-sm-11">
                 <div class="main-menu pull-sm-none">
                             <ul>
-                                <li class="<?php if($page=='index'){echo 'active';} ?>"><a href="index"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;HOME</a>
+                                <li class="<?php if($page=='index'){echo 'active';} ?>"><a href="index"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;HOME</a>
                                  
                                 </li>
                                 <li class="<?php if($page=='about'){echo 'active';} ?> has-child"><a href="about">ABOUT US </a>
@@ -39,22 +39,22 @@
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
 														<h6><span class="clr-span">SAP ECC / S/4HANA <span class="label label-primary">new</span></span></h6>
-														<a href="accrodian.html">Implementation</a>
-														<a href="accrodian.html">Customization</a>
-														<a href="accrodian.html">Upgrade & Roll Out</a>
-														<a href="accrodian.html">Maintenance & Support</a>
-														<a href="accrodian.html">Basis Consulting</a>
-														<a href="accrodian.html">OS / DB Migration</a>
-														<a href="accrodian.html">Training</a> 
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Implementation</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Customization</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Upgrade & Roll Out</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Maintenance & Support</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Basis Consulting</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;OS / DB Migration</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Training</a> 
 													</div>
 												
 													<div class="col-md-6 col-sm-6">
 														<h6><span class="clr-span">SAP Business One</span></h6>
-														<a href="accrodian.html">SAP Business One Implementation</a>
-														<a href="alerts.html">SAP Business One Customization</a>
-														<a href="button.html">SAP Business One Integration Services</a>
-														<a href="tab.html">Consultation Services</a>
-														<a href="typography.html">Upgradation Services</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP Business One Implementation</a>
+														<a href="alerts.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP Business One Customization</a>
+														<a href="button.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP Business One Integration Services</a>
+														<a href="tab.html"><i class="fa fa-angle-double-right"></i>&nbsp;Consultation Services</a>
+														<a href="typography.html"><i class="fa fa-angle-double-right"></i>&nbsp;Upgradation Services</a>
 													</div>
 												
 												</div>  											
@@ -66,19 +66,19 @@
                                         <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                         <h6><span class="clr-span">Business Consulting</span></h6>
-                                            <a href="main-shop.html">Operational Management Consulting<span class="label label-primary">new</span></a>
-                                            <a href="shop-list.html">Financial Management Consulting <span class="label label-primary">new</span></a>
-                                            <a href="shop-grid.html">Business Process Architecting <span class="label label-primary">new</span></a>
-                                            <a href="shop-grid.html">Resource Placement</a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Operational Management Consulting<span class="label label-primary">new</span></a>
+                                            <a href="shop-list.html"><i class="fa fa-angle-double-right"></i>&nbsp;Financial Management Consulting <span class="label label-primary">new</span></a>
+                                            <a href="shop-grid.html"><i class="fa fa-angle-double-right"></i>&nbsp;Business Process Architecting <span class="label label-primary">new</span></a>
+                                            <a href="shop-grid.html"><i class="fa fa-angle-double-right"></i>&nbsp;Resource Placement</a>
                                             <a href="shop-grid.html"></a>  
                                         </div>
                                         <div class="col-md-6 col-sm-6">
                                         <h6><span class="clr-span">IT Consulting</span></h6>
-                                            <a href="main-shop.html">Strategic IT Planning</a>
-                                            <a href="main-shop.html">IT Systems Diagnosis<span class="label label-primary">new</span></a>
-                                            <a href="main-shop.html">IT Systems Transformation<span class="label label-primary">new</span></a>
-                                            <a href="main-shop.html">Security Review & Implementation<span class="label label-primary">new</span></a>
-                                            <a href="main-shop.html">Cloud and Mobile Strategies<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Strategic IT Planning</a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;IT Systems Diagnosis<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;IT Systems Transformation<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Security Review & Implementation<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Cloud and Mobile Strategies<span class="label label-primary">new</span></a>
                                             
                                         </div>
                                         </div>
@@ -91,20 +91,20 @@
                                         <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                         <h6><span class="clr-span">WEB & OS</span></h6>
-                                            <a href="single-team.html">Responsive Websites & E-commerce sites </a>
-                                            <a href="services-one.html">Dashboard & Portal Development</a>                              
-                                            <a href="team-one.html">Optimization of app. components</a>
-                                            <a href="team-two.html">Customized Enterprise Applications</a>
+                                            <a href="single-team.html"><i class="fa fa-angle-double-right"></i>&nbsp;Responsive Websites & E-commerce sites </a>
+                                            <a href="services-one.html"><i class="fa fa-angle-double-right"></i>&nbsp;Dashboard & Portal Development</a>                              
+                                            <a href="team-one.html"><i class="fa fa-angle-double-right"></i>&nbsp;Optimization of app. components</a>
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Customized Enterprise Applications</a>
 
                                         </div>
                                         <div class="col-md-6 col-sm-6">
 										
                                              <h6><span class="clr-span">MOBILE</span></h6>
-                                            <a href="services-two.html">Native/Hybrid Mobile App Development </a>
+                                            <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Native/Hybrid Mobile App Development </a>
 
                                              <h6><span class="clr-span">Database</span></h6>
-                                            <a href="project_detials.html">Database Management</a>
-                                            <a href="project_detials.html">Database Designing</a>
+                                            <a href="project_detials.html"><i class="fa fa-angle-double-right"></i>&nbsp;Database Management</a>
+                                            <a href="project_detials.html"><i class="fa fa-angle-double-right"></i>&nbsp;Database Designing</a>
 
 
                                         </div>
@@ -119,13 +119,13 @@
 														<h3>Hosting  <span class="clr-span">Services</span></h3>
 														<div class="row">
                                         <div class="col-md-6 col-sm-6">                                        
-                                            <a href="team-two.html">Online data safeguarding</a>    
-                                            <a href="team-two.html">Cloud Hosting</a>    
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Online data safeguarding</a>    
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Cloud Hosting</a>    
                                             
                                         </div>
                                         <div class="col-md-6 col-sm-6">
-                                           <a href="team-two.html">Server hosting</a>  
-                                            <a href="team-two.html">Virtual server hosting</a>
+                                           <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Server hosting</a>  
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Virtual server hosting</a>
 
                                         </div>
                                         </div>
@@ -134,12 +134,12 @@
 														<h3>Reporting  <span class="clr-span">Services</span></h3>
 														<div class="row">
                                         <div class="col-md-6 col-sm-6">                                        
-                                          <a href="services-two.html">Crystal Reports</a>
-                                          <a href="services-two.html">ERP Reports</a>
+                                          <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Crystal Reports</a>
+                                          <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;ERP Reports</a>
                                            
                                         </div>
                                         <div class="col-md-6 col-sm-6">                                          
-                                             <a href="services-two.html">RDLC Reports</a>
+                                             <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;RDLC Reports</a>
 													</div>
 													</div>
 													</div>
@@ -147,13 +147,13 @@
 														<h3>Other  <span class="clr-span">Services</span></h3>
 														<div class="row">
                                         <div class="col-md-6 col-sm-6">                                        
-                                             <a href="services-two.html">Project Management</a>
-											 <a href="services-two.html">Upgradation Services</a>
-											 <a href="services-two.html">Network Security</a>
+                                             <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Project Management</a>
+											 <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Upgradation Services</a>
+											 <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Network Security</a>
                                         </div>
                                         <div class="col-md-6 col-sm-6">
 										 
-                                            <a href="services-two.html">Software Licensing</a>
+                                            <a href="services-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Software Licensing</a>
                                             <a href="services"><span class="clr-span">SEE ALL SERVICES</span></a>
                                             
 													</div>	
@@ -171,22 +171,22 @@
 												<div class="row">
 													<div class="col-md-6 col-sm-6">
 														<h6><span class="clr-span">Industry Modules</h6>
-														<a href="accrodian.html">Sales and Services</a>
-														<a href="accrodian.html">Purchase & Supply</a>
-														<a href="accrodian.html">Finance & Accounting</a>
-														<a href="accrodian.html">Production & Planning</a>
-                                                        <a href="accrodian.html">Warehouse & Inventory</a>
-                                                        <a href="accrodian.html">Project Management</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Sales and Services</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Purchase & Supply</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Finance & Accounting</a>
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Production & Planning</a>
+                                                        <a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Warehouse & Inventory</a>
+                                                        <a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Project Management</a>
 														
 														
 													</div>
 												
 													<div class="col-md-6 col-sm-6">
                                                         <br>
-                                                        <a href="accrodian.html">Business Intelligence</a> 
-														<a href="accrodian.html">Reports & Analysis</a> 
-														<a href="accrodian.html">SAP News & Resources</a> 
-														<a href="accrodian.html">Add Ons</a> 
+                                                        <a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Business Intelligence</a> 
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Reports & Analysis</a> 
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP News & Resources</a> 
+														<a href="accrodian.html"><i class="fa fa-angle-double-right"></i>&nbsp;Add Ons</a> 
 													</div>
 												
 												</div>  											
@@ -202,21 +202,21 @@
                                         </div>
                                         <div class="row">
                                         <div class="col-md-6 col-sm-6">                                        
-                                            <a href="main-shop.html">Point of Sale (POS)</a>
-                                            <a href="main-shop.html">Dealer Management Syster (DMS)</a>
-                                            <a href="shop-list.html">Cust. Relationship Management (CRM)</a>
-                                            <a href="shop-grid.html">Quality Checking (QC)<span class="label label-primary">new</span></a>
-                                            <a href="main-shop.html">Vendor Portal</a>
-                                            <a href="main-shop.html">Customer Portal</a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Point of Sale (POS)</a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Dealer Management Syster (DMS)</a>
+                                            <a href="shop-list.html"><i class="fa fa-angle-double-right"></i>&nbsp;Cust. Relationship Management (CRM)</a>
+                                            <a href="shop-grid.html"><i class="fa fa-angle-double-right"></i>&nbsp;Quality Checking (QC)<span class="label label-primary">new</span></a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Vendor Portal</a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Customer Portal</a>
                                              
                                         </div>
                                         <div class="col-md-6 col-sm-6"> 
-                                            <a href="shop-grid.html">Inventory Management</a>
-                                            <a href="shop-grid.html">Catalog Service</a>                                                                                         
-                                            <a href="main-shop.html">Packing List</a>
-                                            <a href="main-shop.html">Tracking | EMS </a>                                            
-                                            <a href="main-shop.html">Office Nest - HRMS & Payroll <span class="label label-primary">new</span></a>                                            
-                                            <a href="main-shop.html">EduSpec - Education ERP <span class="label label-primary">new</span></a>                                            
+                                            <a href="shop-grid.html"><i class="fa fa-angle-double-right"></i>&nbsp;Inventory Management</a>
+                                            <a href="shop-grid.html"><i class="fa fa-angle-double-right"></i>&nbsp;Catalog Service</a>                                                                                         
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Packing List</a>
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Tracking | EMS </a>                                            
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;Office Nest - HRMS & Payroll <span class="label label-primary">new</span></a>                                            
+                                            <a href="main-shop.html"><i class="fa fa-angle-double-right"></i>&nbsp;EduSpec - Education ERP <span class="label label-primary">new</span></a>                                            
                                         </div>
                                         </div>
 
@@ -228,23 +228,23 @@
                                         <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                         <br>
-                                            <a href="single-team.html">Design, UI/UX </a>
-                                            <a href="services-one.html">Development</a>                              
-                                            <a href="team-one.html">Network Security & Solution</a>
-                                            <a href="team-two.html">Mobile Games</a>
-                                            <a href="team-two.html">Maringo MariProject</a>
-                                            <a href="team-two.html">Virtualisation</a>
-                                            <a href="team-two.html">Server</a>
+                                            <a href="single-team.html"><i class="fa fa-angle-double-right"></i>&nbsp;Design, UI/UX </a>
+                                            <a href="services-one.html"><i class="fa fa-angle-double-right"></i>&nbsp;Development</a>                              
+                                            <a href="team-one.html"><i class="fa fa-angle-double-right"></i>&nbsp;Network Security & Solution</a>
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Mobile Games</a>
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Maringo MariProject</a>
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Virtualisation</a>
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Server</a>
                                             
                                         </div>
                                         <div class="col-md-6 col-sm-6">
                                             <br>
-                                        <a href="team-two.html">Storage Unit</a>
-                                        <a href="team-two.html">SAP ECC</a>
-                                        <a href="team-two.html">SAP S/4 HANA</a>
-                                        <a href="team-two.html">SAP Business One</a>
+                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Storage Unit</a>
+                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP ECC</a>
+                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP S/4 HANA</a>
+                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;SAP Business One</a>
                                         
-                                            <a href="team-two.html">SEO</a>
+                                            <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;SEO</a>
                                         </div>
                                         </div>
 
@@ -294,10 +294,10 @@
                                             <h6><span class="clr-span">SAP ECC UNITY Support Program</span></h6>
                                                 <div class="row">
                                                     <div class="col-md-12">
-                                                        <a href="team-two.html">END-TO-END Support​</a>
-                                                        <a href="team-two.html">Additional Module Implementation Support</a>
-                                                        <a href="team-two.html">Business Object(BO) Business Intelligent(BI)-Crystal Reports</a>
-                                                        <a href="team-two.html">Customised Training Support,Management Training & User Training</a>
+                                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;END-TO-END Support​</a>
+                                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Additional Module Implementation Support</a>
+                                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Business Object(BO) Business Intelligent(BI)-Crystal Reports</a>
+                                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Customised Training Support,Management Training & User Training</a>
                                                     </div>
                                                     
                                                 </div>
@@ -306,11 +306,11 @@
                                                 <h6><span class="clr-span">SAP Business One UNITY Support</span></h6>
                                                 <div class="row">
                                                     <div class="col-md-12">
-                                                    <a href="team-two.html">Post Implementation Support</a>
-                                                    <a href="team-two.html">Technical Support</a>
-                                                    <a href="team-two.html">Operational Support</a>
-                                                    <a href="team-two.html">Functional Support</a>
-                                                    <a href="team-two.html">End User Training & Documentation Support</a>
+                                                    <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Post Implementation Support</a>
+                                                    <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Technical Support</a>
+                                                    <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Operational Support</a>
+                                                    <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Functional Support</a>
+                                                    <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;End User Training & Documentation Support</a>
 
                                                     </div>
                                                     
@@ -321,7 +321,7 @@
                                                 <h6><span class="clr-span">SITSPL's Solutions UNITY Support Program</span></h6>
                                                 <div class="row">
                                                     <div class="col-md-12">
-                                                        <a href="team-two.html">Support for all the Solution</a>
+                                                        <a href="team-two.html"><i class="fa fa-angle-double-right"></i>&nbsp;Support for all the Solution</a>
                                                     </div>
                                                     
                                                 </div>

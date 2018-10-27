@@ -9,4 +9,4 @@ RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
 RewriteRule .* - [L,R=404]
 
 # to present a custom 404 page
-ErrorDocument 404 http://localhost:7982/www.SITSPL.com/404.html
+ErrorDocument 404 http://localhost:7901/www.SITSPL.com/404.html
