@@ -464,7 +464,7 @@
             pagination: '.swiper-pagination',
             paginationClickable: true,
             centeredSlides: true,
-            autoplay: 5500,
+            autoplay: 7000,
             direction: 'vertical',
             autoplayDisableOnInteraction: true,
             loop: true,

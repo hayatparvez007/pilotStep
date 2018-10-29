@@ -631,6 +631,129 @@ STEP TEAMONE AREA END FORM HERE
 ========================================
 -->
 
+<section class="new_service_area">
+        <div class="container">
+            <div class="section_title_two text-center">
+                <h6>WHAT WE CAN DO</h6>
+                <h2>OUR <span>SERVICES</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service_flipbox">
+                        <div class="flipbox_font">
+                            <div class="inner_flip">
+                                <img src="image/new/code.png" alt="">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            </div>
+                        </div>
+                        <div class="flipbox_back">
+                            <div class="inner_flip">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_flipbox">
+                        <div class="flipbox_font">
+                            <div class="inner_flip">
+                                <img src="image/new/design.png" alt="">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            </div>
+                        </div>
+                        <div class="flipbox_back">
+                            <div class="inner_flip">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_flipbox">
+                        <div class="flipbox_font">
+                            <div class="inner_flip">
+                                <img src="image/new/features.png" alt="">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            </div>
+                        </div>
+                        <div class="flipbox_back">
+                            <div class="inner_flip">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_flipbox">
+                        <div class="flipbox_font">
+                            <div class="inner_flip">
+                                <img src="image/new/settings.png" alt="">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            </div>
+                        </div>
+                        <div class="flipbox_back">
+                            <div class="inner_flip">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_flipbox">
+                        <div class="flipbox_font">
+                            <div class="inner_flip">
+                                <img src="image/new/support.png" alt="">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            </div>
+                        </div>
+                        <div class="flipbox_back">
+                            <div class="inner_flip">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_flipbox">
+                        <div class="flipbox_font">
+                            <div class="inner_flip">
+                                <img src="image/new/tools.png" alt="">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                            </div>
+                        </div>
+                        <div class="flipbox_back">
+                            <div class="inner_flip">
+                                <h4>Custom Theme Development</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
 <!--  All Services show ends
 -->
 <!--

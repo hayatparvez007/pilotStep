@@ -48,7 +48,7 @@
 About Us section START from here
 ========================================
 -->
-    <!-- 
+<!-- 
 ========================================
 GET IN TOUCH TWO AREA START FORM HERE
 ========================================
@@ -144,7 +144,7 @@ GET IN TOUCH TWO AREA START FORM HERE
 GET IN TOUCH TWO AREA START FORM HERE
 ========================================
 -->
-    <!-- 
+<!-- 
 ========================================
 MAP AREA START FORM HERE
 ========================================
@@ -152,7 +152,7 @@ MAP AREA START FORM HERE
    <div class="contact-page-map-area">
        <div id="googleMap"></div>
    </div>
-    <!-- 
+<!-- 
 ========================================
 MAP AREA END FORM HERE
 ========================================

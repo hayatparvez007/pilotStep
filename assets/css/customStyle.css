@@ -426,6 +426,14 @@ img.gogreen {
     height: 540px;
 }
 
+div#about-us {
+    /* padding: 100px 0px 60px; */
+    position: relative;
+    background: url(../images/section-img/parallax-bg-06.jpg) no-repeat center 0%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .mission-list li i.fa {
     color: #fab747;
     padding-right: 10px;
@@ -829,7 +837,7 @@ a#scrollUp:hover::after {
 /* page 1 starts */
 #breadcrumb{
     /* margin-top: 65px;*/
-    margin-bottom: 10px; 
+    /* margin-bottom: 10px;  */
 
     background-color: #374d86;
 }
@@ -1268,7 +1276,107 @@ a {
 
 /* Video part ends */
 
+/* flipbox starts */
+.service_flipbox {
+    position: relative;
+    color: #fff;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.service_flipbox .flipbox_font {
+    background: #fff;
+}
 
+.service_flipbox .flipbox_font, .service_flipbox .flipbox_back {
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    min-height: 300px;
+    height: auto;
+    -webkit-box-shadow: 0 0 42px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 42px 0 rgba(0, 0, 0, 0.08);
+}
+
+.service_flipbox .flipbox_back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1590c5;
+    border-radius: 2px;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.service_flipbox .inner_flip {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    border-radius: 2px;
+    outline: transparent solid 1px;
+    -webkit-perspective: inherit;
+    perspective: inherit;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+.service_flipbox .flipbox_font .inner_flip h4 {
+    color: #282828;
+}
+
+.service_flipbox .inner_flip h4 {
+    font: 700 22px/26px "Raleway", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.service_flipbox .flipbox_font .inner_flip p {
+    color: #8d8d8d;
+}
+
+.service_flipbox .inner_flip p {
+    font: 400 14px/30px "open", sans-serif;
+}
+
+.service_flipbox .inner_flip a {
+    font: 600 16px/22px "Raleway", sans-serif;
+    color: #fff;
+}
+
+
+.service_flipbox:hover .flipbox_font {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+}
+
+.service_flipbox:hover .flipbox_back {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+
+.service_flipbox.img {
+    vertical-align: middle;
+    border: 0;
+}
+
+
+/* flipbox ends */
 
 /*ERPSoftware Services Css Ends */
 
@@ -1289,7 +1397,6 @@ form.main-contact-form-contact textarea:focus{
 .contact-us.section-padding{
     padding: 50px 0 50px;
 }
-
 
 /* Contact Page ends */
 
@@ -1330,6 +1437,111 @@ form.main-contact-form-contact textarea:focus{
 
 
 /* mega menu revised changes ends */
+
+
+/* Free Deom Modal Css Start */
+
+.slide-content2 .popup {
+    background-color: rgb(255, 255, 255,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: -100%;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hiden;
+  transition: .64s ease-in-out;
+}
+.popup-inner {
+  position: relative;
+  bottom: -100vw;
+  right: -100vh;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  max-height: 600px;
+  width: 60%;
+  height: 80%;
+  background-color: #fff;
+  -webkit-transform: rotate(32deg);
+          transform: rotate(32deg);
+  transition: .64s ease-in-out;
+}
+.popup__photo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+}
+.popup__photo img {
+  width: auto;
+  height: 100%;
+}
+.popup__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  padding: 4rem;
+}
+.popup__text h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #0A0A0A;
+}
+.popup__text p {
+  font-size: .875rem;
+  color: #686868;
+  line-height: 1.5;
+}
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup:target .popup-inner {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+.popup__close {
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: .875rem;
+  font-weight: 300;
+  border-radius: 100%;
+  background-color: #0A0A0A;
+  z-index: 4;
+  color: #fff;
+  line-height: 3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Free Deom Modal Css ends */
 
 
 
