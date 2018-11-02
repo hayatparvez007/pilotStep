@@ -48,6 +48,10 @@
 About Us section START from here
 ========================================
 -->
+<!-- Logic -->
+
+<!-- Logic ends -->
+
 <!-- 
 ========================================
 GET IN TOUCH TWO AREA START FORM HERE
@@ -121,16 +125,20 @@ GET IN TOUCH TWO AREA START FORM HERE
             </div> <!-- end row -->
             <div class="big-spacer2"></div> <!-- end big spacer -->
             <div class="row">
-               <form action="#" class="main-contact-form-contact">
+               <form action="contact-us" method="post" class="main-contact-form-contact">
                 <div class="col-md-6">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
+                    <input type="text" name="name" placeholder="Name" >
+                    
+                    <input type="email" name="email" placeholder="Email" >
+                    
+                    <input type="text" name="mobile" placeholder="Mobile/Phone No.">
+                    
                 </div>
                 <div class="col-md-6">
-                    <textarea placeholder="Message"></textarea>
+                    <textarea placeholder="Message" name="message"></textarea>
                     <div class="text-right">
-                        <a href="#!" class="btn-mr waves-effect waves-light">SEND</a>
+                        <!-- <a href="#!" class="btn-mr waves-effect waves-light">SEND</a> -->
+                        <input type="submit" class="btn-sm btn-mr-solid has-rad-lg waves-effect waves-orange" value="Send" /> 
                     </div>
                 </div>
                </form>
@@ -139,11 +147,18 @@ GET IN TOUCH TWO AREA START FORM HERE
     </div>
 
 
+
     <!-- 
 ========================================
 GET IN TOUCH TWO AREA START FORM HERE
 ========================================
 -->
+
+
+
+
+
+
 <!-- 
 ========================================
 MAP AREA START FORM HERE

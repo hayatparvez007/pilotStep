@@ -10,11 +10,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!--  fonts -->
-    <!-- bootstarp css link -->
-    <link href="assets/css/materialize.min.css" rel="stylesheet">
+    <!--  fonts -->    
     <!-- bootstrap css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstarp css link -->
+    <link href="assets/css/materialize.min.css" rel="stylesheet">
     <!-- fontawesome css link -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <!-- animated css -->

@@ -52,3 +52,24 @@ $('.img-parallax').each(function(){
   });
 });
 
+
+/*==========================================
+        SEARCH OPTION 
+        ==========================================
+        */
+       $(".click-modal-trigger").on('click', function () {
+        $(".search-rapper-step2").toggleClass("active");
+        return false;
+
+    });
+    $("a.serc-clse").on('click', function () {
+        $(".search-rapper-step2").removeClass("active");
+        mySwiper.autoplay.start();
+        return false;
+    });
+
+    /*
+    ==========================================
+    COMMING SOON PAGE NOTIFY 
+    ==========================================
+    */

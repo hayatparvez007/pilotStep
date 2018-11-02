@@ -58,7 +58,7 @@
             </div>
             <div class="row">
             
-                <div class="portfolio-carosel-active owl-carousel">
+                <div class="">
                     <div class="col-md-4">
                         <div class="card sticky-action">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -91,39 +91,7 @@
                             </div>
                         </div>
                     </div> <!--single end  -->
-                    <!-- end single portfolio -->
-                    <div class="col-md-4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/erpsoftware/customised.png">
-                            </div>
-                            <div class="card-action">
-                                <span class="card-title activator grey-text text-darken-4">Our ERP<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#">Read More..</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Our ERP<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div> <!--single end  -->
-
-                    <!-- end single portfolio -->
-                    <div class="col-md-4">
-                        <div class="card sticky-action">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="assets/images/erpsoftware/tally.png">
-                            </div>
-                            <div class="card-action">
-                                <span class="card-title activator grey-text text-darken-4">Tally ERP<i class="material-icons right">more_vert</i></span>
-                                <p><a href="#">Read More..</a></p>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Tally ERP<i class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            </div>
-                        </div>
-                    </div> <!--single end  -->
+                    
                     <!-- end single portfolio -->
                 </div>
                 <!-- end portfolio carosel active -->

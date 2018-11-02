@@ -34,6 +34,20 @@
         }
 
 
+
+
+        /*
+        ===================================================
+        Materialise Modal starts 
+        ===================================================
+        */
+       $('.modal').modal();
+    //    $('.modal-trigger').leanModal();
+        /*
+        ===================================================
+         Materialise modal ends
+        ===================================================
+        */
         /*
         ===================================================
          STEP HOME PAGE TWO SLIDER ANIMATION
@@ -345,7 +359,6 @@
             }
         });
 
-
         /*
         ===================================================
          STEP DATE PICKER
@@ -464,11 +477,14 @@
             pagination: '.swiper-pagination',
             paginationClickable: true,
             centeredSlides: true,
-            autoplay: 7000,
             direction: 'vertical',
+            //autoplay:5000,
             autoplayDisableOnInteraction: true,
-            loop: true,
-            mousewheelControl: false, 
+            keyboardControl:true,
+            loop: false,
+            mousewheelControl: true,
+            mousewheelReleaseOnEdges:true, 
+            mousewheelSensitivity:2,
 			onSlideChangeStart: function (s) {
                 var currentSlide = $(s.slides[s.activeIndex]);
                 var elems = currentSlide.find(".animated")

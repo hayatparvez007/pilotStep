@@ -58,19 +58,27 @@
                                 <h2 id="workStartPhrase" class="animated delay200ms fatten" data-animation="bounceIn">Providing Technological Care To Your Business</h2>
                                 <p id="workStartPhrase2" class="animated delay200ms fatten" data-animation="flipInX">We are SITSPL, a team of sincere, hardworking professionals with expertise in respective fields with immpecable record of professional efficiency. We offer an effective & creative solutions in every vertical in which we deal. </p>
                                 <a href="#!" class="btn-mr white waves-effect waves-teal pill animated delay200ms fatten" id="workStartPhrase3" data-animation="slideInLeft">SEE MORE</a>
-                                <a href="#popup" class="btn-mr demobtn waves-effect waves-light pill animated delay200ms fatten" id="workStartPhrase4" data-animation="slideInRight">FREE DEMO</a>
-                                    <div class="popup" id="popup">
-                                        <div class="popup-inner">
-                                            <div class="popup__photo">
-                                                <img src="https://images.unsplash.com/photo-1515224526905-51c7d77c7bb8?ixlib=rb-0.3.5&s=9980646201037d28700d826b1bd096c4&auto=format&fit=crop&w=700&q=80" alt="">
+                                <a class="btn-mr waves-effect waves-light pill animated delay200ms fatten click-modal-trigger" href="#">Take Demo</a>                             
+                                <!-- Modal Structure -->
+                                <div class="search-rapper-step2">
+                                    <div class="search-close">
+                                        <a class="serc-clse" href="#">
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="step-serach-main2">
+                                                    <form action="#!">
+                                                    </form>
+                                                </div>
                                             </div>
-                                            <div class="popup__text">
-                                                <h1>Lorem ipsum dolor sit amet</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ex velit, viverra non vulputate vitae, blandit vitae nisl. Nullam fermentum orci et erat viverra bibendum. Aliquam sed varius nibh, vitae mattis purus. Mauris elementum sapien non ullamcorper vulputate. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed eget felis sit amet eros viverra pulvinar.</p>
-                                            </div>
-                                            <a class="popup__close" href="#">X</a>
                                         </div>
                                     </div>
+                                </div>       
+                                <!--Modal ends -->
                             </div>
                         </div>
                         <!-- end slider content -->
